@@ -1,0 +1,227 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ShortTypeKey"
+- "TypeKey"
+- "=="
+- "=="
+provides-nominal:
+- "14DITranquillity12ShortTypeKeyV"
+- "14DITranquillity7TypeKeyV"
+provides-member:
+- ["14DITranquillity12ShortTypeKeyV", ""]
+- ["14DITranquillity7TypeKeyV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "DIAType"
+- "DITag"
+- "Hashable"
+- "Int"
+- !private "ObjectIdentifier"
+- "ShortTypeKey"
+- "String"
+- "StringLiteralType"
+- "TypeKey"
+- !private "^"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "hashValue"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s7CVarArgP", "hashValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s10CollectionP", "hashValue"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "hashValue"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "hashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "hashValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "hashValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "ObjectIdentifier"]
+- !private ["s9EquatableP", "hash"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "name"]
+- !private ["s9EquatableP", "tag"]
+- !private ["s9EquatableP", "type"]
+- ["s9EquatableP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "hashValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "hashValue"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "hashValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "ObjectIdentifier"]
+- !private ["s8HashableP", "hash"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "name"]
+- !private ["s8HashableP", "tag"]
+- !private ["s8HashableP", "type"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "hashValue"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "hashValue"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "hashValue"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "hashValue"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "hashValue"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "hashValue"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "hashValue"]
+- !private ["So16NSObjectProtocolP", "hashValue"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So14NSSecureCodingP", "hashValue"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "hashValue"]
+- !private ["So8NSStringC", "init"]
+- !private ["s16ObjectIdentifierV", "hashValue"]
+- !private ["s16ObjectIdentifierV", "init"]
+- !private ["s26RangeReplaceableCollectionP", "hashValue"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "hashValue"]
+- !private ["s8SequenceP", "init"]
+- ["14DITranquillity12ShortTypeKeyV", "=="]
+- ["14DITranquillity12ShortTypeKeyV", "Bool"]
+- ["14DITranquillity12ShortTypeKeyV", "DIAType"]
+- ["14DITranquillity12ShortTypeKeyV", "Int"]
+- !private ["14DITranquillity12ShortTypeKeyV", "ObjectIdentifier"]
+- ["14DITranquillity12ShortTypeKeyV", "ShortTypeKey"]
+- ["14DITranquillity12ShortTypeKeyV", "deinit"]
+- !private ["14DITranquillity12ShortTypeKeyV", "hash"]
+- ["14DITranquillity12ShortTypeKeyV", "hashValue"]
+- ["14DITranquillity12ShortTypeKeyV", "init"]
+- !private ["14DITranquillity12ShortTypeKeyV", "type"]
+- !private ["SS", "hashValue"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "hashValue"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "hashValue"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "hashValue"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["14DITranquillity7TypeKeyV", "=="]
+- ["14DITranquillity7TypeKeyV", "Bool"]
+- ["14DITranquillity7TypeKeyV", "DIAType"]
+- ["14DITranquillity7TypeKeyV", "DITag"]
+- ["14DITranquillity7TypeKeyV", "Int"]
+- !private ["14DITranquillity7TypeKeyV", "ObjectIdentifier"]
+- ["14DITranquillity7TypeKeyV", "String"]
+- ["14DITranquillity7TypeKeyV", "TypeKey"]
+- ["14DITranquillity7TypeKeyV", "deinit"]
+- !private ["14DITranquillity7TypeKeyV", "hash"]
+- ["14DITranquillity7TypeKeyV", "hashValue"]
+- ["14DITranquillity7TypeKeyV", "init"]
+- !private ["14DITranquillity7TypeKeyV", "name"]
+- !private ["14DITranquillity7TypeKeyV", "tag"]
+- ["14DITranquillity7TypeKeyV", "type"]
+- !private ["s23_BidirectionalIndexableP", "hashValue"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "hashValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "hashValue"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "hashValue"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "hashValue"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "hashValue"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "hashValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "hashValue"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "hashValue"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hashValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "hashValue"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "hashValue"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s16ObjectIdentifierV"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- "14DITranquillity12ShortTypeKeyV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "14DITranquillity7TypeKeyV"
+- !private "s23_BidirectionalIndexableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/Pods/Target Support Files/DITranquillity/DITranquillity-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/Pods/DITranquillity/Sources/Storyboard/iOS-tvOS/DIStoryboardBase.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/Pods/DITranquillity/Sources/DITranquillity.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Pods.build/Debug-iphonesimulator/DITranquillity.build/unextended-module.modulemap"
+interface-hash: "2acc92a4ab510d7ed3a6f23608fe0c96"

@@ -1,0 +1,252 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["SS", ""]
+- ["SS", "localized"]
+- ["SS", "localizedFormat"]
+- ["SS", "localizedPlural"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bundle"
+- "CVarArg"
+- "CastingPrecedence"
+- !private "NSString"
+- "String"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "NSString"]
+- !private ["s23BidirectionalCollectionP", "String"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "localized"]
+- !private ["s7CVarArgP", "NSString"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "localized"]
+- !private ["s7CVarArgP", "localizedStringWithFormat"]
+- !private ["s10CollectionP", "NSString"]
+- !private ["s10CollectionP", "String"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "localized"]
+- !private ["s10ComparableP", "NSString"]
+- !private ["s10ComparableP", "String"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "localized"]
+- !private ["s28CustomDebugStringConvertibleP", "NSString"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "localized"]
+- !private ["s28CustomDebugStringConvertibleP", "localizedStringWithFormat"]
+- !private ["s29CustomPlaygroundQuickLookableP", "NSString"]
+- !private ["s29CustomPlaygroundQuickLookableP", "String"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "localized"]
+- !private ["s29CustomPlaygroundQuickLookableP", "localizedStringWithFormat"]
+- !private ["s17CustomReflectableP", "NSString"]
+- !private ["s17CustomReflectableP", "String"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "localized"]
+- !private ["s23CustomStringConvertibleP", "NSString"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "localized"]
+- !private ["s23CustomStringConvertibleP", "localizedStringWithFormat"]
+- !private ["s9DecodableP", "NSString"]
+- !private ["s9DecodableP", "String"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "localized"]
+- !private ["s9EncodableP", "NSString"]
+- !private ["s9EncodableP", "String"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "localized"]
+- !private ["s9EquatableP", "NSString"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "localized"]
+- !private ["s9EquatableP", "localizedStringWithFormat"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "NSString"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "String"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "localized"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "localizedStringWithFormat"]
+- !private ["s26ExpressibleByStringLiteralP", "NSString"]
+- !private ["s26ExpressibleByStringLiteralP", "String"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "localized"]
+- !private ["s26ExpressibleByStringLiteralP", "localizedStringWithFormat"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "NSString"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "String"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "localized"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "localizedStringWithFormat"]
+- !private ["s8HashableP", "NSString"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "localized"]
+- !private ["s8HashableP", "localizedStringWithFormat"]
+- !private ["s25LosslessStringConvertibleP", "NSString"]
+- !private ["s25LosslessStringConvertibleP", "String"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "localized"]
+- !private ["s10MirrorPathP", "NSString"]
+- !private ["s10MirrorPathP", "String"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "localized"]
+- !private ["So8NSCodingP", "localized"]
+- !private ["So8NSCodingP", "localizedStringWithFormat"]
+- !private ["So9NSCopyingP", "localized"]
+- !private ["So9NSCopyingP", "localizedStringWithFormat"]
+- !private ["So21NSItemProviderReadingP", "localized"]
+- !private ["So21NSItemProviderReadingP", "localizedStringWithFormat"]
+- !private ["So21NSItemProviderWritingP", "localized"]
+- !private ["So21NSItemProviderWritingP", "localizedStringWithFormat"]
+- !private ["So16NSMutableCopyingP", "localized"]
+- !private ["So16NSMutableCopyingP", "localizedStringWithFormat"]
+- !private ["So8NSObjectC", "localized"]
+- !private ["So8NSObjectC", "localizedStringWithFormat"]
+- !private ["So16NSObjectProtocolP", "localized"]
+- !private ["So16NSObjectProtocolP", "localizedStringWithFormat"]
+- !private ["So14NSSecureCodingP", "localized"]
+- !private ["So14NSSecureCodingP", "localizedStringWithFormat"]
+- !private ["So8NSStringC", "localized"]
+- !private ["So8NSStringC", "localizedStringWithFormat"]
+- !private ["s26RangeReplaceableCollectionP", "NSString"]
+- !private ["s26RangeReplaceableCollectionP", "String"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "localized"]
+- !private ["s8SequenceP", "NSString"]
+- !private ["s8SequenceP", "String"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "localized"]
+- ["SS", "Bundle"]
+- ["SS", "CVarArg"]
+- !private ["SS", "NSString"]
+- ["SS", "String"]
+- !private ["SS", "init"]
+- ["SS", "localized"]
+- ["SS", "localizedFormat"]
+- ["SS", "localizedPlural"]
+- !private ["s14StringProtocolP", "NSString"]
+- !private ["s14StringProtocolP", "String"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "localized"]
+- !private ["s16TextOutputStreamP", "NSString"]
+- !private ["s16TextOutputStreamP", "String"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "localized"]
+- !private ["s20TextOutputStreamableP", "NSString"]
+- !private ["s20TextOutputStreamableP", "String"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "localized"]
+- !private ["s23_BidirectionalIndexableP", "NSString"]
+- !private ["s23_BidirectionalIndexableP", "String"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "localized"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "NSString"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "String"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "localized"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "NSString"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "String"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "localized"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "NSString"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "String"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "localized"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "NSString"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "String"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "localized"]
+- !private ["s33_ExpressibleByStringInterpolationP", "NSString"]
+- !private ["s33_ExpressibleByStringInterpolationP", "String"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "localized"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "localized"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "localizedStringWithFormat"]
+- !private ["s10_IndexableP", "NSString"]
+- !private ["s10_IndexableP", "String"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "localized"]
+- !private ["s14_IndexableBaseP", "NSString"]
+- !private ["s14_IndexableBaseP", "String"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "localized"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "localized"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "localizedStringWithFormat"]
+- !private ["s21_ObjectiveCBridgeableP", "NSString"]
+- !private ["s21_ObjectiveCBridgeableP", "String"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "localized"]
+- !private ["s26_RangeReplaceableIndexableP", "NSString"]
+- !private ["s26_RangeReplaceableIndexableP", "String"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "localized"]
+- !private ["s16_SwiftStringViewP", "NSString"]
+- !private ["s16_SwiftStringViewP", "String"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "localized"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/Pods/Target Support Files/Localize-Swift/Localize-Swift-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/Pods/Localize-Swift/Sources/Localize_Swift.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Pods.build/Debug-iphonesimulator/Localize-Swift.build/unextended-module.modulemap"
+interface-hash: "762e1eff6a3f146f663ee90258bfdf0f"

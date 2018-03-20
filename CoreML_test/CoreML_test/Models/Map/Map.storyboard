@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13770" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TWp-sq-ub9">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13770"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Map View Controller-->
+        <scene sceneID="4V7-YL-tpL">
+            <objects>
+                <viewController id="TWp-sq-ub9" customClass="MapViewController" customModule="CoreML_test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AyZ-gI-4LI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ahU-zL-xyw">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </mapView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xef-nC-Q8J" customClass="RouteInfoView" customModule="CoreML_test" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="547" width="375" height="120"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cGe-oq-Ib8" customClass="PlaceInfoView" customModule="CoreML_test" customModuleProvider="target">
+                                        <rect key="frame" x="15" y="11" width="120" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uGN-7y-Ahv">
+                                                <rect key="frame" x="0.0" y="3" width="22" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Woi-sB-7C3" customClass="KerningLabel" customModule="CoreML_test" customModuleProvider="target">
+                                                <rect key="frame" x="29" y="-4" width="42" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z0V-sJ-ZOe" customClass="KerningLabel" customModule="CoreML_test" customModuleProvider="target">
+                                                <rect key="frame" x="30" y="9" width="42" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="10"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="dateLabel" destination="Z0V-sJ-ZOe" id="i5P-Hq-Eqe"/>
+                                            <outlet property="imageView" destination="uGN-7y-Ahv" id="qnn-da-Kxg"/>
+                                            <outlet property="nameLabel" destination="NtE-sf-loP" id="AHO-00-fHn"/>
+                                        </connections>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nzl-VM-IGr" customClass="PlaceInfoView" customModule="CoreML_test" customModuleProvider="target">
+                                        <rect key="frame" x="15" y="75" width="120" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DhF-oo-qt9">
+                                                <rect key="frame" x="0.0" y="4" width="22" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NtE-sf-loP" customClass="KerningLabel" customModule="CoreML_test" customModuleProvider="target">
+                                                <rect key="frame" x="30" y="0.0" width="42" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fSd-WX-Gy5" customClass="KerningLabel" customModule="CoreML_test" customModuleProvider="target">
+                                                <rect key="frame" x="30" y="12" width="42" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="10"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="dateLabel" destination="fSd-WX-Gy5" id="Q3I-LJ-ftA"/>
+                                            <outlet property="imageView" destination="DhF-oo-qt9" id="Bz6-Vo-xRs"/>
+                                            <outlet property="nameLabel" destination="Woi-sB-7C3" id="wdh-JQ-rVl"/>
+                                        </connections>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kmg-uW-OXI">
+                                        <rect key="frame" x="20" y="36" width="12" height="43"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.34862315649999998" green="0.88417094949999997" blue="0.96378217139166678" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="i1Z-mb-yU3"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="endPlaceView" destination="nzl-VM-IGr" id="FvK-7q-S2g"/>
+                                    <outlet property="routeView" destination="kmg-uW-OXI" id="iGJ-DH-jxo"/>
+                                    <outlet property="startPlaceView" destination="cGe-oq-Ib8" id="GzI-vi-Ehb"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ahU-zL-xyw" firstAttribute="leading" secondItem="crd-tK-iy5" secondAttribute="leading" id="aG0-el-YGO"/>
+                            <constraint firstItem="crd-tK-iy5" firstAttribute="trailing" secondItem="xef-nC-Q8J" secondAttribute="trailing" id="hXH-1Z-MHT"/>
+                            <constraint firstItem="ahU-zL-xyw" firstAttribute="top" secondItem="crd-tK-iy5" secondAttribute="top" id="kD1-3s-MaM"/>
+                            <constraint firstItem="xef-nC-Q8J" firstAttribute="bottom" secondItem="ahU-zL-xyw" secondAttribute="bottom" id="pam-XQ-dWI"/>
+                            <constraint firstItem="crd-tK-iy5" firstAttribute="bottom" secondItem="ahU-zL-xyw" secondAttribute="bottom" id="qrw-Ol-pHn"/>
+                            <constraint firstItem="xef-nC-Q8J" firstAttribute="leading" secondItem="crd-tK-iy5" secondAttribute="leading" id="vxA-Qe-VMk"/>
+                            <constraint firstItem="crd-tK-iy5" firstAttribute="trailing" secondItem="ahU-zL-xyw" secondAttribute="trailing" id="yEj-cH-Mrd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="crd-tK-iy5"/>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="ahU-zL-xyw" id="JNd-6Z-fzq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QKn-6s-oj0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="104.8" y="127.28635682158921"/>
+        </scene>
+    </scenes>
+</document>

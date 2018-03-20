@@ -1,0 +1,10 @@
+framework module SwiftHash {
+  umbrella header "SwiftHash-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftHash.__Swift {
+    exclude header "SwiftHash-Swift.h"
+}

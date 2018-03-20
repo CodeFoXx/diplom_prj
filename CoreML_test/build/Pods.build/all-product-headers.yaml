@@ -1,0 +1,316 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/CodableAlamofire/CodableAlamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CodableAlamofire-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/CodableAlamofire/CodableAlamofire.framework/Headers/CodableAlamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "CodableAlamofire-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Target Support Files/CodableAlamofire/CodableAlamofire-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "CodableAlamofire.h",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/CodableAlamofire/Sources/Supporting Files/CodableAlamofire.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/CodableAlamofire/CodableAlamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Pods.build/Debug-iphoneos/CodableAlamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/DITranquillity/DITranquillity.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "DIStoryboardBase.h",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/DITranquillity/Sources/Storyboard/iOS-tvOS/DIStoryboardBase.h"
+        },
+        {
+          'type': 'file',
+          'name': "DITranquillity-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/DITranquillity/DITranquillity.framework/Headers/DITranquillity-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "DITranquillity-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Target Support Files/DITranquillity/DITranquillity-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "DITranquillity.h",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/DITranquillity/Sources/DITranquillity.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/DITranquillity/DITranquillity.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Pods.build/Debug-iphoneos/DITranquillity.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/Localize-Swift/Localize_Swift.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Localize-Swift-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Target Support Files/Localize-Swift/Localize-Swift-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Localize_Swift-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/Localize-Swift/Localize_Swift.framework/Headers/Localize_Swift-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Localize_Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Localize-Swift/Sources/Localize_Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/Localize-Swift/Localize_Swift.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Pods.build/Debug-iphoneos/Localize-Swift.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ObjectMapper-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ObjectMapper-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Pods.build/Debug-iphoneos/ObjectMapper.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/Pods_CoreML_test.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-CoreML_test-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Target Support Files/Pods-CoreML_test/Pods-CoreML_test-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_CoreML_test-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/Pods_CoreML_test.framework/Headers/Pods_CoreML_test-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/Pods_CoreML_test.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Pods.build/Debug-iphoneos/Pods-CoreML_test.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/RxAlamofire/RxAlamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "RxAlamofire-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/RxAlamofire/RxAlamofire.framework/Headers/RxAlamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "RxAlamofire-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Target Support Files/RxAlamofire/RxAlamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/RxAlamofire/RxAlamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Pods.build/Debug-iphoneos/RxAlamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/RxSwift/RxSwift.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "RxSwift-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "RxSwift-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/RxSwift/RxSwift.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Pods.build/Debug-iphoneos/RxSwift.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SVIndefiniteAnimatedView.h",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/SVProgressHUD/SVProgressHUD/SVIndefiniteAnimatedView.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressAnimatedView.h",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/SVProgressHUD/SVProgressHUD/SVProgressAnimatedView.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressHUD-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressHUD-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Target Support Files/SVProgressHUD/SVProgressHUD-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVProgressHUD.h",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.h"
+        },
+        {
+          'type': 'file',
+          'name': "SVRadialGradientLayer.h",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/SVProgressHUD/SVProgressHUD/SVRadialGradientLayer.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Pods.build/Debug-iphoneos/SVProgressHUD.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/SwiftHash/SwiftHash.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SwiftHash-Swift.h",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/SwiftHash/SwiftHash.framework/Headers/SwiftHash-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftHash-umbrella.h",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Target Support Files/SwiftHash/SwiftHash-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/SwiftHash/SwiftHash.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Pods.build/Debug-iphoneos/SwiftHash.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

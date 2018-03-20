@@ -1,0 +1,11 @@
+framework module SwiftHash {
+  umbrella header "SwiftHash-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftHash.Swift {
+    header "SwiftHash-Swift.h"
+    requires objc
+}

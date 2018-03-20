@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "16a6280acf19cd97af1ebeac9a5b06a9"
+build_time: [1521479988, 709467000]
+inputs:
+  "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Alamofire/Source/AFError.swift": [1520874164, 0]
+  "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Alamofire/Source/Alamofire.swift": [1520874164, 0]
+  "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1520874164, 0]
+  "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Alamofire/Source/MultipartFormData.swift": [1520874164, 0]
+  "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1520874164, 0]
+  "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Alamofire/Source/Notifications.swift": [1520874164, 0]
+  "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Alamofire/Source/ParameterEncoding.swift": [1520874164, 0]
+  "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Alamofire/Source/Request.swift": [1520874164, 0]
+  "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Alamofire/Source/Response.swift": [1520874164, 0]
+  "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Alamofire/Source/ResponseSerialization.swift": [1520874164, 0]
+  "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Alamofire/Source/Result.swift": [1520874164, 0]
+  "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1520874164, 0]
+  "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Alamofire/Source/SessionDelegate.swift": [1520874164, 0]
+  "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Alamofire/Source/SessionManager.swift": [1520874164, 0]
+  "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Alamofire/Source/TaskDelegate.swift": [1520874164, 0]
+  "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Alamofire/Source/Timeline.swift": [1520874164, 0]
+  "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Alamofire/Source/Validation.swift": [1520874164, 0]

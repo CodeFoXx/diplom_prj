@@ -1,0 +1,10 @@
+framework module DITranquillity {
+  umbrella header "DITranquillity-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module DITranquillity.__Swift {
+    exclude header "DITranquillity-Swift.h"
+}

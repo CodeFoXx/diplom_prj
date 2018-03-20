@@ -1,0 +1,357 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TranslationProvider"
+provides-nominal:
+- "11CoreML_test19TranslationProviderC"
+provides-member:
+- ["11CoreML_test19TranslationProviderC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "ApiError"
+- "AssignmentPrecedence"
+- "HTTPMethod"
+- "HTTPURLResponse"
+- !private "Mapper"
+- "Observable"
+- "ParameterEncoding"
+- !private "RxAlamofire"
+- "String"
+- !private "StringLiteralType"
+- !private "TranslationApiError"
+- "TranslationProvider"
+- "URL"
+- !private "URLEncoding"
+- !private "print"
+depends-member:
+- !private ["11CoreML_test8ApiErrorV", "code"]
+- !private ["11CoreML_test8ApiErrorV", "deinit"]
+- !private ["12ObjectMapper12BaseMappableP", "code"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "localized"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CNKeyDescriptorP", "init"]
+- !private ["So15CNKeyDescriptorP", "localized"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isSuccessful"]
+- !private ["s7CVarArgP", "localized"]
+- !private ["s7CVarArgP", "statusCode"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "localized"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "localized"]
+- !private ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isSuccessful"]
+- !private ["s28CustomDebugStringConvertibleP", "localized"]
+- !private ["s28CustomDebugStringConvertibleP", "statusCode"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "appendingPathComponent"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "localized"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "localized"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isSuccessful"]
+- !private ["s23CustomStringConvertibleP", "localized"]
+- !private ["s23CustomStringConvertibleP", "statusCode"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "appendingPathComponent"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "localized"]
+- !private ["9Alamofire11URLEncodingV11DestinationO", "methodDependent"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "appendingPathComponent"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "localized"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "appendingPathComponent"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isSuccessful"]
+- !private ["s9EquatableP", "localized"]
+- !private ["s9EquatableP", "methodDependent"]
+- !private ["s9EquatableP", "statusCode"]
+- !private ["s5ErrorP", "apiError"]
+- !private ["s5ErrorP", "generic"]
+- !private ["s5ErrorP", "illegalArgument"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "localized"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "localized"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "localized"]
+- !private ["So15HTTPURLResponseC", "isSuccessful"]
+- !private ["So15HTTPURLResponseC", "statusCode"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "appendingPathComponent"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isSuccessful"]
+- !private ["s8HashableP", "localized"]
+- !private ["s8HashableP", "methodDependent"]
+- !private ["s8HashableP", "statusCode"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "localized"]
+- !private ["12ObjectMapper8MappableP", "code"]
+- !private ["12ObjectMapper0B0C", "init"]
+- !private ["12ObjectMapper0B0C", "map"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "localized"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isSuccessful"]
+- !private ["So8NSCodingP", "localized"]
+- !private ["So8NSCodingP", "statusCode"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "isSuccessful"]
+- !private ["So9NSCopyingP", "localized"]
+- !private ["So9NSCopyingP", "statusCode"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "localized"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "localized"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "localized"]
+- !private ["So8NSObjectC", "isSuccessful"]
+- !private ["So8NSObjectC", "localized"]
+- !private ["So8NSObjectC", "statusCode"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isSuccessful"]
+- !private ["So16NSObjectProtocolP", "localized"]
+- !private ["So16NSObjectProtocolP", "statusCode"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "isSuccessful"]
+- !private ["So14NSSecureCodingP", "localized"]
+- !private ["So14NSSecureCodingP", "statusCode"]
+- !private ["So8NSStringC", "init"]
+- !private ["So8NSStringC", "localized"]
+- !private ["7RxSwift10ObservableC", "error"]
+- !private ["7RxSwift10ObservableC", "flatMap"]
+- !private ["7RxSwift10ObservableC", "just"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "error"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "flatMap"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "just"]
+- !private ["7RxSwift14ObservableTypeP", "error"]
+- !private ["7RxSwift14ObservableTypeP", "flatMap"]
+- !private ["7RxSwift14ObservableTypeP", "just"]
+- !private ["9Alamofire17ParameterEncodingP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "localized"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "isSuccessful"]
+- !private ["7RxSwift18ReactiveCompatibleP", "localized"]
+- !private ["7RxSwift18ReactiveCompatibleP", "statusCode"]
+- !private ["10Foundation20ReferenceConvertibleP", "appendingPathComponent"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "localized"]
+- !private ["SS", "init"]
+- !private ["SS", "localized"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "localized"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "localized"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "localized"]
+- !private ["11CoreML_test19TranslationApiErrorO", "apiError"]
+- !private ["11CoreML_test19TranslationApiErrorO", "deinit"]
+- !private ["11CoreML_test19TranslationApiErrorO", "generic"]
+- !private ["11CoreML_test19TranslationApiErrorO", "illegalArgument"]
+- !private ["11CoreML_test19TranslationProviderC", "ApiError"]
+- ["11CoreML_test19TranslationProviderC", "HTTPMethod"]
+- ["11CoreML_test19TranslationProviderC", "HTTPURLResponse"]
+- !private ["11CoreML_test19TranslationProviderC", "Mapper"]
+- ["11CoreML_test19TranslationProviderC", "Observable"]
+- ["11CoreML_test19TranslationProviderC", "ParameterEncoding"]
+- !private ["11CoreML_test19TranslationProviderC", "RxAlamofire"]
+- ["11CoreML_test19TranslationProviderC", "String"]
+- !private ["11CoreML_test19TranslationProviderC", "TranslationApiError"]
+- ["11CoreML_test19TranslationProviderC", "URL"]
+- !private ["11CoreML_test19TranslationProviderC", "URLEncoding"]
+- !private ["11CoreML_test19TranslationProviderC", "apiURL"]
+- ["11CoreML_test19TranslationProviderC", "deinit"]
+- ["11CoreML_test19TranslationProviderC", "init"]
+- !private ["11CoreML_test19TranslationProviderC", "print"]
+- ["11CoreML_test19TranslationProviderC", "requestJSON"]
+- !private ["10Foundation3URLV", "appendingPathComponent"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["9Alamofire14URLConvertibleP", "appendingPathComponent"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "localized"]
+- !private ["9Alamofire11URLEncodingV", "init"]
+- !private ["So11URLResponseC", "isSuccessful"]
+- !private ["So11URLResponseC", "statusCode"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "localized"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "localized"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "localized"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "localized"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "localized"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "appendingPathComponent"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "localized"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "localized"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "localized"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "localized"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isSuccessful"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "localized"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusCode"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "appendingPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "localized"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "localized"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "localized"]
+depends-nominal:
+- !private "11CoreML_test8ApiErrorV"
+- !private "12ObjectMapper12BaseMappableP"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CNKeyDescriptorP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "9Alamofire11URLEncodingV11DestinationO"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So15HTTPURLResponseC"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "12ObjectMapper8MappableP"
+- !private "12ObjectMapper0B0C"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "7RxSwift10ObservableC"
+- !private "7RxSwift25ObservableConvertibleTypeP"
+- !private "7RxSwift14ObservableTypeP"
+- !private "9Alamofire17ParameterEncodingP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "7RxSwift18ReactiveCompatibleP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "11CoreML_test19TranslationApiErrorO"
+- "11CoreML_test19TranslationProviderC"
+- !private "10Foundation3URLV"
+- !private "9Alamofire14URLConvertibleP"
+- !private "9Alamofire11URLEncodingV"
+- !private "So11URLResponseC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/CodableAlamofire/CodableAlamofire.framework/Modules/CodableAlamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/RxAlamofire/RxAlamofire.framework/Modules/RxAlamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/SwiftHash/SwiftHash.framework/Modules/SwiftHash.swiftmodule/arm64.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/arm64.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/Localize-Swift/Localize_Swift.framework/Modules/Localize_Swift.swiftmodule/arm64.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/DITranquillity/DITranquillity.framework/Modules/DITranquillity.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Vision.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Contacts.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/CodableAlamofire/CodableAlamofire.framework/Headers/CodableAlamofire-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/RxAlamofire/RxAlamofire.framework/Headers/RxAlamofire-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/SwiftHash/SwiftHash.framework/Headers/SwiftHash-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/Localize-Swift/Localize_Swift.framework/Headers/Localize-Swift-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/DITranquillity/DITranquillity.framework/Headers/DITranquillity-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/CodableAlamofire/CodableAlamofire.framework/Headers/CodableAlamofire.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/DITranquillity/DITranquillity.framework/Headers/DIStoryboardBase.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/CodableAlamofire/CodableAlamofire.framework/Headers/CodableAlamofire-Swift.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/RxAlamofire/RxAlamofire.framework/Headers/RxAlamofire-Swift.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/SwiftHash/SwiftHash.framework/Headers/SwiftHash-Swift.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/Localize-Swift/Localize_Swift.framework/Headers/Localize_Swift-Swift.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/DITranquillity/DITranquillity.framework/Headers/DITranquillity-Swift.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/Localize-Swift/Localize_Swift.framework/Headers/Localize_Swift.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/DITranquillity/DITranquillity.framework/Headers/DITranquillity.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/CodableAlamofire/CodableAlamofire.framework/Modules/module.modulemap"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/RxAlamofire/RxAlamofire.framework/Modules/module.modulemap"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/SwiftHash/SwiftHash.framework/Modules/module.modulemap"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/Localize-Swift/Localize_Swift.framework/Modules/module.modulemap"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/DITranquillity/DITranquillity.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Contacts.framework/Headers/Contacts.apinotes"
+interface-hash: "e0eec6c7d065b09e3eacea375e25a0fc"

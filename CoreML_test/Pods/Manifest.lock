@@ -1,0 +1,39 @@
+PODS:
+  - Alamofire (4.6.0)
+  - CodableAlamofire (1.1.0):
+    - Alamofire (~> 4.0)
+  - DITranquillity (3.1.0)
+  - Localize-Swift (2.0.0)
+  - ObjectMapper (3.1.0)
+  - RxAlamofire (4.0.0):
+    - RxAlamofire/Core (= 4.0.0)
+  - RxAlamofire/Core (4.0.0):
+    - Alamofire (~> 4.5)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+  - SVProgressHUD (2.2.5)
+  - SwiftHash (2.0.1)
+
+DEPENDENCIES:
+  - CodableAlamofire
+  - DITranquillity
+  - Localize-Swift
+  - ObjectMapper
+  - RxAlamofire
+  - SVProgressHUD
+  - SwiftHash
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  CodableAlamofire: e2d2edcec7cf413f7862c30c8fa98eded27a83f9
+  DITranquillity: c7a01350aca46532708c12ccb13764d0e404656c
+  Localize-Swift: c798ec9286494866f7068f85f7c71283ac5bdab4
+  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+  RxAlamofire: 6ea579ac53bf14cb4bc7049a3866e5a769989b1d
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftHash: c805de5a434eacfa0dac7210745a50c55d7fe33d
+
+PODFILE CHECKSUM: d642d4739ece05ad3d96eb907e9cedb94de4c82b
+
+COCOAPODS: 1.4.0.beta.2

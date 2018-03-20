@@ -1,0 +1,52 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EnumTransform"
+provides-nominal:
+- "12ObjectMapper13EnumTransformC"
+provides-member:
+- ["12ObjectMapper13EnumTransformC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "CastingPrecedence"
+- "EnumTransform"
+- "RawRepresentable"
+- "TransformType"
+depends-member:
+- ["12ObjectMapper13EnumTransformC", "JSON"]
+- ["12ObjectMapper13EnumTransformC", "Object"]
+- ["12ObjectMapper13EnumTransformC", "T"]
+- ["12ObjectMapper13EnumTransformC", "deinit"]
+- ["12ObjectMapper13EnumTransformC", "init"]
+- ["12ObjectMapper13EnumTransformC", "transformFromJSON"]
+- ["12ObjectMapper13EnumTransformC", "transformToJSON"]
+- ["s16RawRepresentableP", "RawValue"]
+- !private ["s16RawRepresentableP", "init"]
+- !private ["s16RawRepresentableP", "rawValue"]
+- ["12ObjectMapper13TransformTypeP", "JSON"]
+- ["12ObjectMapper13TransformTypeP", "Object"]
+- !private ["12ObjectMapper13TransformTypeP", "T"]
+- ["12ObjectMapper13TransformTypeP", "transformFromJSON"]
+- ["12ObjectMapper13TransformTypeP", "transformToJSON"]
+- ["12ObjectMapper13TransformTypeP", ""]
+depends-nominal:
+- "12ObjectMapper13EnumTransformC"
+- "s16RawRepresentableP"
+- "12ObjectMapper13TransformTypeP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Pods.build/Debug-iphonesimulator/ObjectMapper.build/unextended-module.modulemap"
+interface-hash: "4b86ed93096023bf0e000a8a9ba8c67f"

@@ -1,0 +1,129 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BundleContainer"
+provides-nominal:
+- "14DITranquillity15BundleContainerC"
+provides-member:
+- ["14DITranquillity15BundleContainerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- !private "??"
+- "Array"
+- !private "AssignmentPrecedence"
+- "Bundle"
+- "BundleContainer"
+- "PThreadMutex"
+- "Set"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["14DITranquillity15BundleContainerC", "Bundle"]
+- ["14DITranquillity15BundleContainerC", "PThreadMutex"]
+- ["14DITranquillity15BundleContainerC", "Set"]
+- ["14DITranquillity15BundleContainerC", "childs"]
+- ["14DITranquillity15BundleContainerC", "deinit"]
+- ["14DITranquillity15BundleContainerC", "dependency"]
+- !private ["14DITranquillity15BundleContainerC", "imports"]
+- ["14DITranquillity15BundleContainerC", "init"]
+- !private ["14DITranquillity15BundleContainerC", "mutex"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "insert"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "insert"]
+- !private ["s10CollectionP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insert"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "insert"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insert"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "insert"]
+- !private ["s9DecodableP", "subscript"]
+- ["s10DictionaryV", "init"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "insert"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "insert"]
+- !private ["s25ExpressibleByArrayLiteralP", "insert"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "insert"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["14DITranquillity12PThreadMutexC", "init"]
+- !private ["14DITranquillity12PThreadMutexC", "sync"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "insert"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s3SetV", "insert"]
+- !private ["s10SetAlgebraP", "insert"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "insert"]
+- !private ["s10_IndexableP", "subscript"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "insert"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "insert"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sb"
+- "14DITranquillity15BundleContainerC"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s10DictionaryV"
+- "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- "14DITranquillity12PThreadMutexC"
+- "s8SequenceP"
+- !private "s3SetV"
+- !private "s10SetAlgebraP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Target Support Files/DITranquillity/DITranquillity-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/DITranquillity/Sources/Storyboard/iOS-tvOS/DIStoryboardBase.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/DITranquillity/Sources/DITranquillity.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Pods.build/Debug-iphoneos/DITranquillity.build/unextended-module.modulemap"
+interface-hash: "d64bf9af1538ce3ae4a5e749fbc84eb5"

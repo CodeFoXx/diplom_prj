@@ -1,0 +1,193 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TranslationService"
+provides-nominal:
+- "11CoreML_test18TranslationServiceC"
+provides-member:
+- ["11CoreML_test18TranslationServiceC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "StringLiteralType"
+- "TranslationService"
+- "UserDefaults"
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- ["So15CNKeyDescriptorP", "init"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "standard"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "standard"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "standard"]
+- ["s9DecodableP", "init"]
+- ["s9EncodableP", "init"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "standard"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "standard"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "init"]
+- ["So9NSCopyingP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "standard"]
+- ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", "standard"]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["7RxSwift18ReactiveCompatibleP", "init"]
+- ["7RxSwift18ReactiveCompatibleP", "standard"]
+- ["s8SequenceP", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["11CoreML_test18TranslationServiceC", "UserDefaults"]
+- ["11CoreML_test18TranslationServiceC", "deinit"]
+- ["11CoreML_test18TranslationServiceC", "init"]
+- !private ["11CoreML_test18TranslationServiceC", "translationApiDefaultsKey"]
+- ["11CoreML_test18TranslationServiceC", "userDefaults"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["So12UserDefaultsC", "standard"]
+- ["s23_BidirectionalIndexableP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "standard"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- "So15CNKeyDescriptorP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- "s26RangeReplaceableCollectionP"
+- "7RxSwift18ReactiveCompatibleP"
+- "s8SequenceP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "11CoreML_test18TranslationServiceC"
+- "9Alamofire14URLConvertibleP"
+- "So12UserDefaultsC"
+- "s23_BidirectionalIndexableP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/CodableAlamofire/CodableAlamofire.framework/Modules/CodableAlamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/RxAlamofire/RxAlamofire.framework/Modules/RxAlamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/SwiftHash/SwiftHash.framework/Modules/SwiftHash.swiftmodule/arm64.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/arm64.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/Localize-Swift/Localize_Swift.framework/Modules/Localize_Swift.swiftmodule/arm64.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/DITranquillity/DITranquillity.framework/Modules/DITranquillity.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Vision.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Contacts.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/CodableAlamofire/CodableAlamofire.framework/Headers/CodableAlamofire-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/RxAlamofire/RxAlamofire.framework/Headers/RxAlamofire-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/SwiftHash/SwiftHash.framework/Headers/SwiftHash-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/Localize-Swift/Localize_Swift.framework/Headers/Localize-Swift-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/DITranquillity/DITranquillity.framework/Headers/DITranquillity-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/CodableAlamofire/CodableAlamofire.framework/Headers/CodableAlamofire.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/DITranquillity/DITranquillity.framework/Headers/DIStoryboardBase.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/CodableAlamofire/CodableAlamofire.framework/Headers/CodableAlamofire-Swift.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/RxAlamofire/RxAlamofire.framework/Headers/RxAlamofire-Swift.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/SwiftHash/SwiftHash.framework/Headers/SwiftHash-Swift.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/Localize-Swift/Localize_Swift.framework/Headers/Localize_Swift-Swift.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/DITranquillity/DITranquillity.framework/Headers/DITranquillity-Swift.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/Localize-Swift/Localize_Swift.framework/Headers/Localize_Swift.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/DITranquillity/DITranquillity.framework/Headers/DITranquillity.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/CodableAlamofire/CodableAlamofire.framework/Modules/module.modulemap"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/RxAlamofire/RxAlamofire.framework/Modules/module.modulemap"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/SwiftHash/SwiftHash.framework/Modules/module.modulemap"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/Localize-Swift/Localize_Swift.framework/Modules/module.modulemap"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Debug-iphoneos/DITranquillity/DITranquillity.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Contacts.framework/Headers/Contacts.apinotes"
+interface-hash: "960b5a71361f139374b361240981855d"

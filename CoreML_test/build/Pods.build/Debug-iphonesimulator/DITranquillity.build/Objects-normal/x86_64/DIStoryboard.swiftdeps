@@ -1,0 +1,275 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DIStoryboard"
+provides-nominal:
+- "14DITranquillity12DIStoryboardC"
+provides-member:
+- ["14DITranquillity12DIStoryboardC", ""]
+- ["14DITranquillity11DIContainerC", ""]
+- ["14DITranquillity11DIContainerC", "registerStoryboard"]
+provides-dynamic-lookup:
+- "create"
+- "instantiateViewController"
+depends-top-level:
+- !private "??"
+- "AssignmentPrecedence"
+- "Bundle"
+- !private "CastingPrecedence"
+- "DIComponentBuilder"
+- "DIContainer"
+- "DIStoryboard"
+- "Int"
+- !private "StoryboardContainerMap"
+- "StoryboardResolver"
+- "String"
+- "StringLiteralType"
+- "UIStoryboard"
+- "UIViewController"
+- "_DIStoryboardBase"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["14DITranquillity11DIContainerC11BundleStackC", "bundle"]
+- !private ["s7CVarArgP", "DIStoryboard"]
+- !private ["s7CVarArgP", "StoryboardContainerMap"]
+- !private ["s7CVarArgP", "StoryboardResolver"]
+- !private ["s7CVarArgP", "_create"]
+- !private ["s7CVarArgP", "create"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateViewController"]
+- !private ["s7CVarArgP", "resolver"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "DIStoryboard"]
+- !private ["s28CustomDebugStringConvertibleP", "StoryboardContainerMap"]
+- !private ["s28CustomDebugStringConvertibleP", "StoryboardResolver"]
+- !private ["s28CustomDebugStringConvertibleP", "_create"]
+- !private ["s28CustomDebugStringConvertibleP", "create"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "resolver"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "DIStoryboard"]
+- !private ["s23CustomStringConvertibleP", "StoryboardContainerMap"]
+- !private ["s23CustomStringConvertibleP", "StoryboardResolver"]
+- !private ["s23CustomStringConvertibleP", "_create"]
+- !private ["s23CustomStringConvertibleP", "create"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
+- !private ["s23CustomStringConvertibleP", "resolver"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["14DITranquillity18DIComponentBuilderC", "as"]
+- !private ["14DITranquillity18DIComponentBuilderC", "component"]
+- ["14DITranquillity11DIContainerC", "Bundle"]
+- ["14DITranquillity11DIContainerC", "DIComponentBuilder"]
+- !private ["14DITranquillity11DIContainerC", "DIStoryboard"]
+- ["14DITranquillity11DIContainerC", "Int"]
+- !private ["14DITranquillity11DIContainerC", "StoryboardContainerMap"]
+- ["14DITranquillity11DIContainerC", "String"]
+- ["14DITranquillity11DIContainerC", "UIStoryboard"]
+- !private ["14DITranquillity11DIContainerC", "bundleStack"]
+- !private ["14DITranquillity11DIContainerC", "register1"]
+- ["14DITranquillity11DIContainerC", "registerStoryboard"]
+- !private ["14DITranquillity11DIContainerC", "resolver"]
+- ["14DITranquillity12DIStoryboardC", "Bundle"]
+- ["14DITranquillity12DIStoryboardC", "DIContainer"]
+- ["14DITranquillity12DIStoryboardC", "DIStoryboard"]
+- !private ["14DITranquillity12DIStoryboardC", "StoryboardContainerMap"]
+- ["14DITranquillity12DIStoryboardC", "StoryboardResolver"]
+- ["14DITranquillity12DIStoryboardC", "String"]
+- ["14DITranquillity12DIStoryboardC", "UIViewController"]
+- !private ["14DITranquillity12DIStoryboardC", "_create"]
+- ["14DITranquillity12DIStoryboardC", "create"]
+- ["14DITranquillity12DIStoryboardC", "deinit"]
+- !private ["14DITranquillity12DIStoryboardC", "init"]
+- ["14DITranquillity12DIStoryboardC", "instantiateViewController"]
+- !private ["14DITranquillity12DIStoryboardC", "resolver"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "DIStoryboard"]
+- !private ["s9EquatableP", "StoryboardContainerMap"]
+- !private ["s9EquatableP", "StoryboardResolver"]
+- !private ["s9EquatableP", "_create"]
+- !private ["s9EquatableP", "create"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "instantiateViewController"]
+- !private ["s9EquatableP", "resolver"]
+- ["s9EquatableP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "DIStoryboard"]
+- !private ["s8HashableP", "StoryboardContainerMap"]
+- !private ["s8HashableP", "StoryboardResolver"]
+- !private ["s8HashableP", "_create"]
+- !private ["s8HashableP", "create"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "instantiateViewController"]
+- !private ["s8HashableP", "resolver"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "Bundle"]
+- ["So8NSObjectC", "DIContainer"]
+- ["So8NSObjectC", "DIStoryboard"]
+- !private ["So8NSObjectC", "StoryboardContainerMap"]
+- ["So8NSObjectC", "StoryboardResolver"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIViewController"]
+- !private ["So8NSObjectC", "_create"]
+- ["So8NSObjectC", "create"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "instantiateViewController"]
+- ["So8NSObjectC", "resolver"]
+- !private ["So16NSObjectProtocolP", "DIStoryboard"]
+- !private ["So16NSObjectProtocolP", "StoryboardContainerMap"]
+- !private ["So16NSObjectProtocolP", "StoryboardResolver"]
+- !private ["So16NSObjectProtocolP", "_create"]
+- !private ["So16NSObjectProtocolP", "create"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "instantiateViewController"]
+- !private ["So16NSObjectProtocolP", "resolver"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["14DITranquillity8ResolverC", "resolve"]
+- !private ["s8SequenceP", "init"]
+- !private ["14DITranquillity22StoryboardContainerMapC", "append"]
+- !private ["14DITranquillity22StoryboardContainerMapC", "findComponent"]
+- !private ["14DITranquillity22StoryboardContainerMapC", "findContainer"]
+- !private ["14DITranquillity22StoryboardContainerMapC", "instance"]
+- !private ["14DITranquillity18StoryboardResolverC", "init"]
+- !private ["14DITranquillity18StoryboardResolverC", "inject"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["So12UIStoryboardC", "Bundle"]
+- ["So12UIStoryboardC", "DIContainer"]
+- ["So12UIStoryboardC", "DIStoryboard"]
+- !private ["So12UIStoryboardC", "StoryboardContainerMap"]
+- ["So12UIStoryboardC", "StoryboardResolver"]
+- ["So12UIStoryboardC", "String"]
+- ["So12UIStoryboardC", "UIViewController"]
+- !private ["So12UIStoryboardC", "_create"]
+- ["So12UIStoryboardC", "create"]
+- ["So12UIStoryboardC", "init"]
+- ["So12UIStoryboardC", "instantiateViewController"]
+- ["So12UIStoryboardC", "resolver"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- ["So17_DIStoryboardBaseC", "Bundle"]
+- ["So17_DIStoryboardBaseC", "DIContainer"]
+- ["So17_DIStoryboardBaseC", "DIStoryboard"]
+- !private ["So17_DIStoryboardBaseC", "StoryboardContainerMap"]
+- ["So17_DIStoryboardBaseC", "StoryboardResolver"]
+- ["So17_DIStoryboardBaseC", "String"]
+- ["So17_DIStoryboardBaseC", "UIViewController"]
+- !private ["So17_DIStoryboardBaseC", "_create"]
+- ["So17_DIStoryboardBaseC", "create"]
+- ["So17_DIStoryboardBaseC", "init"]
+- ["So17_DIStoryboardBaseC", "instantiateViewController"]
+- ["So17_DIStoryboardBaseC", "resolver"]
+- ["So17_DIStoryboardBaseC", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DIStoryboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "StoryboardContainerMap"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "StoryboardResolver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_create"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "create"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resolver"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "14DITranquillity11DIContainerC11BundleStackC"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "14DITranquillity18DIComponentBuilderC"
+- "14DITranquillity11DIContainerC"
+- "14DITranquillity12DIStoryboardC"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "14DITranquillity8ResolverC"
+- !private "s8SequenceP"
+- !private "14DITranquillity22StoryboardContainerMapC"
+- !private "14DITranquillity18StoryboardResolverC"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So12UIStoryboardC"
+- !private "s23_BidirectionalIndexableP"
+- "So17_DIStoryboardBaseC"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/Pods/Target Support Files/DITranquillity/DITranquillity-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/Pods/DITranquillity/Sources/Storyboard/iOS-tvOS/DIStoryboardBase.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/Pods/DITranquillity/Sources/DITranquillity.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Pods.build/Debug-iphonesimulator/DITranquillity.build/unextended-module.modulemap"
+interface-hash: "21c5b13dd6577472eed8f74414a78897"

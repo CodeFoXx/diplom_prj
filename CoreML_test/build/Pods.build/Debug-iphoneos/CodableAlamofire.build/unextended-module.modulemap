@@ -1,0 +1,10 @@
+framework module CodableAlamofire {
+  umbrella header "CodableAlamofire-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module CodableAlamofire.__Swift {
+    exclude header "CodableAlamofire-Swift.h"
+}

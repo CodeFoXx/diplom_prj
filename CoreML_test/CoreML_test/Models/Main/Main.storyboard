@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13770" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uoY-wj-jNT">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13770"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="oEy-th-klN">
+            <objects>
+                <viewController storyboardIdentifier="mainViewController" id="uoY-wj-jNT" customClass="MainViewController" customModule="CoreML_test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IIn-q8-rRc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9IM-jd-mRC">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UHC-pl-nyn">
+                                <rect key="frame" x="0.0" y="602" width="375" height="28"/>
+                                <color key="backgroundColor" red="0.75203891599999995" green="0.94630757300000001" blue="0.91169780489999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xp9-Me-WW0">
+                                <rect key="frame" x="0.0" y="630" width="375" height="37"/>
+                                <color key="backgroundColor" red="0.82047873640000002" green="0.73556932890000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
+                                <state key="normal" title="Text detection">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="openTextRecognitionView:" destination="uoY-wj-jNT" eventType="touchUpInside" id="Y15-Q4-gfg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="INX-q9-dU9" firstAttribute="trailing" secondItem="9IM-jd-mRC" secondAttribute="trailing" id="1M5-If-cDV"/>
+                            <constraint firstItem="INX-q9-dU9" firstAttribute="trailing" secondItem="xp9-Me-WW0" secondAttribute="trailing" id="3Ov-ee-crj"/>
+                            <constraint firstItem="UHC-pl-nyn" firstAttribute="trailing" secondItem="xp9-Me-WW0" secondAttribute="trailing" id="AEe-o2-55h"/>
+                            <constraint firstItem="INX-q9-dU9" firstAttribute="bottom" secondItem="9IM-jd-mRC" secondAttribute="bottom" id="Ccb-Sw-9Ny"/>
+                            <constraint firstItem="xp9-Me-WW0" firstAttribute="leading" secondItem="INX-q9-dU9" secondAttribute="leading" id="PGe-9g-MtV"/>
+                            <constraint firstItem="9IM-jd-mRC" firstAttribute="leading" secondItem="INX-q9-dU9" secondAttribute="leading" id="PM9-n8-a9n"/>
+                            <constraint firstItem="INX-q9-dU9" firstAttribute="bottom" secondItem="xp9-Me-WW0" secondAttribute="bottom" id="bjF-nr-4kE"/>
+                            <constraint firstItem="UHC-pl-nyn" firstAttribute="leading" secondItem="xp9-Me-WW0" secondAttribute="leading" id="gWR-tt-vCH"/>
+                            <constraint firstItem="xp9-Me-WW0" firstAttribute="top" secondItem="UHC-pl-nyn" secondAttribute="bottom" id="ojd-er-Mjm"/>
+                            <constraint firstItem="9IM-jd-mRC" firstAttribute="top" secondItem="INX-q9-dU9" secondAttribute="top" id="yf5-lg-9OG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="INX-q9-dU9"/>
+                    </view>
+                    <connections>
+                        <outlet property="resultOfVideoLabel" destination="UHC-pl-nyn" id="3O3-UQ-Czn"/>
+                        <outlet property="videoView" destination="9IM-jd-mRC" id="EtR-oT-gV2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m9l-gl-muF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="113" y="132"/>
+        </scene>
+    </scenes>
+</document>

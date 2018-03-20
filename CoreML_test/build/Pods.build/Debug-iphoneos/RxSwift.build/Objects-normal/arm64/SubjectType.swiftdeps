@@ -1,0 +1,45 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SubjectType"
+provides-nominal:
+- "7RxSwift11SubjectTypeP"
+provides-member:
+- ["7RxSwift11SubjectTypeP", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "ObservableType"
+- "ObserverType"
+- "SubjectType"
+depends-member:
+- ["7RxSwift25ObservableConvertibleTypeP", "ObserverType"]
+- ["7RxSwift25ObservableConvertibleTypeP", "SubjectObserverType"]
+- ["7RxSwift25ObservableConvertibleTypeP", "asObserver"]
+- ["7RxSwift14ObservableTypeP", "ObserverType"]
+- ["7RxSwift14ObservableTypeP", "SubjectObserverType"]
+- ["7RxSwift14ObservableTypeP", "asObserver"]
+- ["7RxSwift14ObservableTypeP", ""]
+- ["7RxSwift11SubjectTypeP", "ObserverType"]
+- ["7RxSwift11SubjectTypeP", "SubjectObserverType"]
+- ["7RxSwift11SubjectTypeP", "asObserver"]
+depends-nominal:
+- "7RxSwift25ObservableConvertibleTypeP"
+- "7RxSwift14ObservableTypeP"
+- "7RxSwift11SubjectTypeP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Pods.build/Debug-iphoneos/RxSwift.build/unextended-module.modulemap"
+interface-hash: "ee51779ea02e9f9ce8b3aa1767a514ef"

@@ -1,0 +1,512 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ArtworkMarkerView"
+provides-nominal:
+- "11CoreML_test17ArtworkMarkerViewC"
+provides-member:
+- ["11CoreML_test17ArtworkMarkerViewC", ""]
+provides-dynamic-lookup:
+- "annotation"
+depends-top-level:
+- !private "Artwork"
+- "ArtworkMarkerView"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "CGPoint"
+- "CastingPrecedence"
+- "MKAnnotation"
+- "MKMarkerAnnotationView"
+- !private "String"
+- !private "UIButton"
+depends-member:
+- !private ["11CoreML_test7ArtworkC", "discipline"]
+- !private ["11CoreML_test7ArtworkC", "markerTintColor"]
+- !private ["11CoreML_test17ArtworkMarkerViewC", "Artwork"]
+- !private ["11CoreML_test17ArtworkMarkerViewC", "CGPoint"]
+- ["11CoreML_test17ArtworkMarkerViewC", "MKAnnotation"]
+- !private ["11CoreML_test17ArtworkMarkerViewC", "String"]
+- !private ["11CoreML_test17ArtworkMarkerViewC", "UIButton"]
+- ["11CoreML_test17ArtworkMarkerViewC", "annotation"]
+- !private ["11CoreML_test17ArtworkMarkerViewC", "calloutOffset"]
+- !private ["11CoreML_test17ArtworkMarkerViewC", "canShowCallout"]
+- ["11CoreML_test17ArtworkMarkerViewC", "deinit"]
+- !private ["11CoreML_test17ArtworkMarkerViewC", "glyphText"]
+- ["11CoreML_test17ArtworkMarkerViewC", "init"]
+- !private ["11CoreML_test17ArtworkMarkerViewC", "markerTintColor"]
+- !private ["11CoreML_test17ArtworkMarkerViewC", "rightCalloutAccessoryView"]
+- !private ["s23BidirectionalCollectionP", "first"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["So15CALayerDelegateP", "CGPoint"]
+- !private ["So15CALayerDelegateP", "String"]
+- !private ["So15CALayerDelegateP", "UIButton"]
+- !private ["So15CALayerDelegateP", "calloutOffset"]
+- !private ["So15CALayerDelegateP", "canShowCallout"]
+- !private ["So15CALayerDelegateP", "glyphText"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "markerTintColor"]
+- !private ["So15CALayerDelegateP", "rightCalloutAccessoryView"]
+- ["So15CALayerDelegateP", ""]
+- !private ["SC7CGPointV", "init"]
+- !private ["So15CNKeyDescriptorP", "first"]
+- !private ["s7CVarArgP", "CGPoint"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "UIButton"]
+- !private ["s7CVarArgP", "calloutOffset"]
+- !private ["s7CVarArgP", "canShowCallout"]
+- !private ["s7CVarArgP", "discipline"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "glyphText"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "markerTintColor"]
+- !private ["s7CVarArgP", "rightCalloutAccessoryView"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "first"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "first"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CGPoint"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "UIButton"]
+- !private ["s28CustomDebugStringConvertibleP", "calloutOffset"]
+- !private ["s28CustomDebugStringConvertibleP", "canShowCallout"]
+- !private ["s28CustomDebugStringConvertibleP", "discipline"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "glyphText"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "markerTintColor"]
+- !private ["s28CustomDebugStringConvertibleP", "rightCalloutAccessoryView"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "first"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "CGPoint"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "UIButton"]
+- !private ["s23CustomStringConvertibleP", "calloutOffset"]
+- !private ["s23CustomStringConvertibleP", "canShowCallout"]
+- !private ["s23CustomStringConvertibleP", "discipline"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "glyphText"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "markerTintColor"]
+- !private ["s23CustomStringConvertibleP", "rightCalloutAccessoryView"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "first"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "first"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "CGPoint"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "UIButton"]
+- !private ["s9EquatableP", "calloutOffset"]
+- !private ["s9EquatableP", "canShowCallout"]
+- !private ["s9EquatableP", "detailDisclosure"]
+- !private ["s9EquatableP", "discipline"]
+- !private ["s9EquatableP", "first"]
+- !private ["s9EquatableP", "glyphText"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "markerTintColor"]
+- !private ["s9EquatableP", "rightCalloutAccessoryView"]
+- ["s9EquatableP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "first"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "first"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "first"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "CGPoint"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "UIButton"]
+- !private ["s8HashableP", "calloutOffset"]
+- !private ["s8HashableP", "canShowCallout"]
+- !private ["s8HashableP", "detailDisclosure"]
+- !private ["s8HashableP", "discipline"]
+- !private ["s8HashableP", "first"]
+- !private ["s8HashableP", "glyphText"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "markerTintColor"]
+- !private ["s8HashableP", "rightCalloutAccessoryView"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "first"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["So12MKAnnotationP", "discipline"]
+- !private ["So12MKAnnotationP", "markerTintColor"]
+- !private ["So16MKAnnotationViewC", "Artwork"]
+- !private ["So16MKAnnotationViewC", "CGPoint"]
+- ["So16MKAnnotationViewC", "MKAnnotation"]
+- !private ["So16MKAnnotationViewC", "String"]
+- !private ["So16MKAnnotationViewC", "UIButton"]
+- ["So16MKAnnotationViewC", "annotation"]
+- !private ["So16MKAnnotationViewC", "calloutOffset"]
+- !private ["So16MKAnnotationViewC", "canShowCallout"]
+- !private ["So16MKAnnotationViewC", "glyphText"]
+- ["So16MKAnnotationViewC", "init"]
+- !private ["So16MKAnnotationViewC", "markerTintColor"]
+- !private ["So16MKAnnotationViewC", "rightCalloutAccessoryView"]
+- !private ["So22MKMarkerAnnotationViewC", "Artwork"]
+- !private ["So22MKMarkerAnnotationViewC", "CGPoint"]
+- ["So22MKMarkerAnnotationViewC", "MKAnnotation"]
+- !private ["So22MKMarkerAnnotationViewC", "String"]
+- !private ["So22MKMarkerAnnotationViewC", "UIButton"]
+- ["So22MKMarkerAnnotationViewC", "annotation"]
+- !private ["So22MKMarkerAnnotationViewC", "calloutOffset"]
+- !private ["So22MKMarkerAnnotationViewC", "canShowCallout"]
+- !private ["So22MKMarkerAnnotationViewC", "glyphText"]
+- ["So22MKMarkerAnnotationViewC", "init"]
+- !private ["So22MKMarkerAnnotationViewC", "markerTintColor"]
+- !private ["So22MKMarkerAnnotationViewC", "rightCalloutAccessoryView"]
+- ["So22MKMarkerAnnotationViewC", ""]
+- !private ["s10MirrorPathP", "first"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "CGPoint"]
+- !private ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "UIButton"]
+- !private ["So8NSCodingP", "calloutOffset"]
+- !private ["So8NSCodingP", "canShowCallout"]
+- !private ["So8NSCodingP", "first"]
+- !private ["So8NSCodingP", "glyphText"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "markerTintColor"]
+- !private ["So8NSCodingP", "rightCalloutAccessoryView"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "first"]
+- !private ["So21NSItemProviderReadingP", "first"]
+- !private ["So21NSItemProviderWritingP", "first"]
+- !private ["So16NSMutableCopyingP", "first"]
+- !private ["So8NSObjectC", "Artwork"]
+- !private ["So8NSObjectC", "CGPoint"]
+- ["So8NSObjectC", "MKAnnotation"]
+- !private ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "annotation"]
+- !private ["So8NSObjectC", "calloutOffset"]
+- !private ["So8NSObjectC", "canShowCallout"]
+- !private ["So8NSObjectC", "discipline"]
+- !private ["So8NSObjectC", "first"]
+- !private ["So8NSObjectC", "glyphText"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "markerTintColor"]
+- !private ["So8NSObjectC", "rightCalloutAccessoryView"]
+- !private ["So16NSObjectProtocolP", "CGPoint"]
+- !private ["So16NSObjectProtocolP", "String"]
+- !private ["So16NSObjectProtocolP", "UIButton"]
+- !private ["So16NSObjectProtocolP", "calloutOffset"]
+- !private ["So16NSObjectProtocolP", "canShowCallout"]
+- !private ["So16NSObjectProtocolP", "discipline"]
+- !private ["So16NSObjectProtocolP", "first"]
+- !private ["So16NSObjectProtocolP", "glyphText"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "markerTintColor"]
+- !private ["So16NSObjectProtocolP", "rightCalloutAccessoryView"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "first"]
+- !private ["So8NSStringC", "first"]
+- !private ["s26RangeReplaceableCollectionP", "first"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "detailDisclosure"]
+- !private ["s8SequenceP", "first"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "first"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "first"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "first"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "first"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "CGPoint"]
+- !private ["So29UIAccessibilityIdentificationP", "String"]
+- !private ["So29UIAccessibilityIdentificationP", "UIButton"]
+- !private ["So29UIAccessibilityIdentificationP", "calloutOffset"]
+- !private ["So29UIAccessibilityIdentificationP", "canShowCallout"]
+- !private ["So29UIAccessibilityIdentificationP", "glyphText"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "markerTintColor"]
+- !private ["So29UIAccessibilityIdentificationP", "rightCalloutAccessoryView"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So12UIAppearanceP", "CGPoint"]
+- !private ["So12UIAppearanceP", "String"]
+- !private ["So12UIAppearanceP", "UIButton"]
+- !private ["So12UIAppearanceP", "calloutOffset"]
+- !private ["So12UIAppearanceP", "canShowCallout"]
+- !private ["So12UIAppearanceP", "glyphText"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "markerTintColor"]
+- !private ["So12UIAppearanceP", "rightCalloutAccessoryView"]
+- ["So12UIAppearanceP", ""]
+- !private ["So21UIAppearanceContainerP", "CGPoint"]
+- !private ["So21UIAppearanceContainerP", "String"]
+- !private ["So21UIAppearanceContainerP", "UIButton"]
+- !private ["So21UIAppearanceContainerP", "calloutOffset"]
+- !private ["So21UIAppearanceContainerP", "canShowCallout"]
+- !private ["So21UIAppearanceContainerP", "glyphText"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "markerTintColor"]
+- !private ["So21UIAppearanceContainerP", "rightCalloutAccessoryView"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So8UIButtonC", "init"]
+- !private ["SC12UIButtonTypeO", "detailDisclosure"]
+- !private ["So9UIControlC", "init"]
+- !private ["So17UICoordinateSpaceP", "CGPoint"]
+- !private ["So17UICoordinateSpaceP", "String"]
+- !private ["So17UICoordinateSpaceP", "UIButton"]
+- !private ["So17UICoordinateSpaceP", "calloutOffset"]
+- !private ["So17UICoordinateSpaceP", "canShowCallout"]
+- !private ["So17UICoordinateSpaceP", "glyphText"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "markerTintColor"]
+- !private ["So17UICoordinateSpaceP", "rightCalloutAccessoryView"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So13UIDynamicItemP", "CGPoint"]
+- !private ["So13UIDynamicItemP", "String"]
+- !private ["So13UIDynamicItemP", "UIButton"]
+- !private ["So13UIDynamicItemP", "calloutOffset"]
+- !private ["So13UIDynamicItemP", "canShowCallout"]
+- !private ["So13UIDynamicItemP", "glyphText"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "markerTintColor"]
+- !private ["So13UIDynamicItemP", "rightCalloutAccessoryView"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So18UIFocusEnvironmentP", "CGPoint"]
+- !private ["So18UIFocusEnvironmentP", "String"]
+- !private ["So18UIFocusEnvironmentP", "UIButton"]
+- !private ["So18UIFocusEnvironmentP", "calloutOffset"]
+- !private ["So18UIFocusEnvironmentP", "canShowCallout"]
+- !private ["So18UIFocusEnvironmentP", "glyphText"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "markerTintColor"]
+- !private ["So18UIFocusEnvironmentP", "rightCalloutAccessoryView"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "CGPoint"]
+- !private ["So11UIFocusItemP", "String"]
+- !private ["So11UIFocusItemP", "UIButton"]
+- !private ["So11UIFocusItemP", "calloutOffset"]
+- !private ["So11UIFocusItemP", "canShowCallout"]
+- !private ["So11UIFocusItemP", "glyphText"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "markerTintColor"]
+- !private ["So11UIFocusItemP", "rightCalloutAccessoryView"]
+- ["So11UIFocusItemP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "CGPoint"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "calloutOffset"]
+- !private ["So30UIPasteConfigurationSupportingP", "canShowCallout"]
+- !private ["So30UIPasteConfigurationSupportingP", "glyphText"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "markerTintColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "rightCalloutAccessoryView"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So11UIResponderC", "Artwork"]
+- !private ["So11UIResponderC", "CGPoint"]
+- ["So11UIResponderC", "MKAnnotation"]
+- !private ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "annotation"]
+- !private ["So11UIResponderC", "calloutOffset"]
+- !private ["So11UIResponderC", "canShowCallout"]
+- !private ["So11UIResponderC", "glyphText"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "markerTintColor"]
+- !private ["So11UIResponderC", "rightCalloutAccessoryView"]
+- !private ["So30UIResponderStandardEditActionsP", "CGPoint"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
+- !private ["So30UIResponderStandardEditActionsP", "UIButton"]
+- !private ["So30UIResponderStandardEditActionsP", "calloutOffset"]
+- !private ["So30UIResponderStandardEditActionsP", "canShowCallout"]
+- !private ["So30UIResponderStandardEditActionsP", "glyphText"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "markerTintColor"]
+- !private ["So30UIResponderStandardEditActionsP", "rightCalloutAccessoryView"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So18UITraitEnvironmentP", "CGPoint"]
+- !private ["So18UITraitEnvironmentP", "String"]
+- !private ["So18UITraitEnvironmentP", "UIButton"]
+- !private ["So18UITraitEnvironmentP", "calloutOffset"]
+- !private ["So18UITraitEnvironmentP", "canShowCallout"]
+- !private ["So18UITraitEnvironmentP", "glyphText"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "markerTintColor"]
+- !private ["So18UITraitEnvironmentP", "rightCalloutAccessoryView"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "Artwork"]
+- !private ["So6UIViewC", "CGPoint"]
+- ["So6UIViewC", "MKAnnotation"]
+- !private ["So6UIViewC", "String"]
+- !private ["So6UIViewC", "UIButton"]
+- ["So6UIViewC", "annotation"]
+- !private ["So6UIViewC", "calloutOffset"]
+- !private ["So6UIViewC", "canShowCallout"]
+- !private ["So6UIViewC", "glyphText"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "markerTintColor"]
+- !private ["So6UIViewC", "rightCalloutAccessoryView"]
+- !private ["9Alamofire14URLConvertibleP", "first"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s23_BidirectionalIndexableP", "first"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "CGPoint"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "String"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIButton"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "calloutOffset"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "canShowCallout"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "glyphText"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "markerTintColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "rightCalloutAccessoryView"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "first"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "first"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "first"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "first"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "first"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s10_IndexableP", "first"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "first"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGPoint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "calloutOffset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "canShowCallout"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "discipline"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "first"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "glyphText"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "markerTintColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rightCalloutAccessoryView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "first"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "first"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "11CoreML_test7ArtworkC"
+- "11CoreML_test17ArtworkMarkerViewC"
+- !private "s23BidirectionalCollectionP"
+- "So15CALayerDelegateP"
+- !private "SC7CGPointV"
+- !private "So15CNKeyDescriptorP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "So12MKAnnotationP"
+- "So16MKAnnotationViewC"
+- "So22MKMarkerAnnotationViewC"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- !private "SC12UIButtonTypeO"
+- !private "So9UIControlC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s23_BidirectionalIndexableP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/DITranquillity/DITranquillity.framework/Modules/DITranquillity.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Vision.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/DITranquillity/DITranquillity.framework/Headers/DITranquillity-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/DITranquillity/DITranquillity.framework/Headers/DIStoryboardBase.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/DITranquillity/DITranquillity.framework/Headers/DITranquillity-Swift.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/DITranquillity/DITranquillity.framework/Headers/DITranquillity.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/DITranquillity/DITranquillity.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreML.framework/Headers/CoreML.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/Vision.framework/Headers/Vision.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/Contacts.framework/Headers/Contacts.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "880b7670a94233592630ebb6a231900a"

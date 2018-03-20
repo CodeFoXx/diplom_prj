@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13770" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="n5s-bO-sDj">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13770"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Map View Controller-->
+        <scene sceneID="vdt-vK-kjd">
+            <objects>
+                <viewController id="n5s-bO-sDj" customClass="MapViewController" customModule="CoreML_test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rdp-Xj-CUK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="DLh-3p-vPF">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="CPg-QK-VPF" appends="YES" id="U2P-t9-1G7"/>
+                                </connections>
+                            </mapView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="auu-SK-PMt">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="66"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fe6-af-e6B">
+                                        <rect key="frame" x="10" y="34" width="13" height="22"/>
+                                        <state key="normal" image="back_chevron_gray"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please specify Travel Partner and Mode of Transport during your Trip" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IPy-Mx-Sa7">
+                                        <rect key="frame" x="50" y="33" width="275.5" height="28"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="IPy-Mx-Sa7" secondAttribute="bottom" constant="5" id="NM1-Wd-HBF"/>
+                                    <constraint firstItem="Fe6-af-e6B" firstAttribute="leading" secondItem="auu-SK-PMt" secondAttribute="leading" constant="10" id="Qba-xT-J44"/>
+                                    <constraint firstAttribute="bottom" secondItem="Fe6-af-e6B" secondAttribute="bottom" constant="10" id="dME-6U-bqV"/>
+                                    <constraint firstItem="IPy-Mx-Sa7" firstAttribute="centerX" secondItem="auu-SK-PMt" secondAttribute="centerX" id="gt9-u4-8OM"/>
+                                    <constraint firstItem="IPy-Mx-Sa7" firstAttribute="leading" secondItem="auu-SK-PMt" secondAttribute="leading" constant="50" id="oWD-1O-lua"/>
+                                    <constraint firstAttribute="height" constant="66" id="xrf-Fi-Gsa"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cjW-8k-KLS" firstAttribute="bottom" secondItem="DLh-3p-vPF" secondAttribute="bottom" id="2ZR-yP-H7b"/>
+                            <constraint firstItem="auu-SK-PMt" firstAttribute="leading" secondItem="cjW-8k-KLS" secondAttribute="leading" id="G9V-nj-W0x"/>
+                            <constraint firstItem="DLh-3p-vPF" firstAttribute="top" secondItem="cjW-8k-KLS" secondAttribute="top" id="X7Q-bj-Tpq"/>
+                            <constraint firstItem="cjW-8k-KLS" firstAttribute="trailing" secondItem="auu-SK-PMt" secondAttribute="trailing" id="a0m-Xg-CTQ"/>
+                            <constraint firstItem="cjW-8k-KLS" firstAttribute="trailing" secondItem="DLh-3p-vPF" secondAttribute="trailing" id="aWZ-PX-zLQ"/>
+                            <constraint firstItem="DLh-3p-vPF" firstAttribute="leading" secondItem="cjW-8k-KLS" secondAttribute="leading" id="kX5-cK-pjU"/>
+                            <constraint firstItem="auu-SK-PMt" firstAttribute="top" secondItem="rdp-Xj-CUK" secondAttribute="top" id="uV3-za-1YX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cjW-8k-KLS"/>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="DLh-3p-vPF" id="u79-DE-82t"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ks7-2G-HCf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="CPg-QK-VPF">
+                    <connections>
+                        <action selector="pinPress:" destination="n5s-bO-sDj" id="zbg-e6-JQA"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-82.400000000000006" y="91.304347826086968"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back_chevron_gray" width="13" height="21"/>
+    </resources>
+</document>

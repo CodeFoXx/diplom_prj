@@ -1,0 +1,829 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDelegate"
+provides-nominal:
+- "11CoreML_test11AppDelegateC"
+provides-member:
+- ["11CoreML_test11AppDelegateC", ""]
+provides-dynamic-lookup:
+- "application"
+- "applicationDidBecomeActive"
+- "applicationDidEnterBackground"
+- "applicationWillEnterForeground"
+- "applicationWillResignActive"
+- "applicationWillTerminate"
+- "window"
+depends-top-level:
+- !private "!"
+- !private "*"
+- !private "AppDIPart"
+- "AppDelegate"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "DIContainer"
+- !private "MainDIPart"
+- !private "MainViewController"
+- !private "MapDIPart"
+- !private "NetworkDIPart"
+- !private "OCRDIPart"
+- !private "SVProgressHUD"
+- !private "StringLiteralType"
+- !private "TextDetectorDIPart"
+- "UIApplication"
+- "UIApplicationDelegate"
+- "UIApplicationLaunchOptionsKey"
+- !private "UINavigationBar"
+- !private "UINavigationController"
+- "UIResponder"
+- "UIWindow"
+- !private "_ImageLiteralType"
+- !private "fatalError"
+depends-member:
+- !private ["11CoreML_test9AppDIPartC", "deinit"]
+- !private ["11CoreML_test11AppDelegateC", "AppDIPart"]
+- ["11CoreML_test11AppDelegateC", "Bool"]
+- ["11CoreML_test11AppDelegateC", "DIContainer"]
+- !private ["11CoreML_test11AppDelegateC", "MainDIPart"]
+- !private ["11CoreML_test11AppDelegateC", "MainViewController"]
+- !private ["11CoreML_test11AppDelegateC", "MapDIPart"]
+- !private ["11CoreML_test11AppDelegateC", "NetworkDIPart"]
+- !private ["11CoreML_test11AppDelegateC", "OCRDIPart"]
+- !private ["11CoreML_test11AppDelegateC", "SVProgressHUD"]
+- !private ["11CoreML_test11AppDelegateC", "TextDetectorDIPart"]
+- ["11CoreML_test11AppDelegateC", "UIApplication"]
+- ["11CoreML_test11AppDelegateC", "UIApplicationLaunchOptionsKey"]
+- !private ["11CoreML_test11AppDelegateC", "UINavigationBar"]
+- !private ["11CoreML_test11AppDelegateC", "UINavigationController"]
+- ["11CoreML_test11AppDelegateC", "UIWindow"]
+- ["11CoreML_test11AppDelegateC", "application"]
+- ["11CoreML_test11AppDelegateC", "applicationDidBecomeActive"]
+- ["11CoreML_test11AppDelegateC", "applicationDidEnterBackground"]
+- ["11CoreML_test11AppDelegateC", "applicationDidFinishLaunching"]
+- ["11CoreML_test11AppDelegateC", "applicationDidReceiveMemoryWarning"]
+- ["11CoreML_test11AppDelegateC", "applicationProtectedDataDidBecomeAvailable"]
+- ["11CoreML_test11AppDelegateC", "applicationProtectedDataWillBecomeUnavailable"]
+- ["11CoreML_test11AppDelegateC", "applicationShouldRequestHealthAuthorization"]
+- ["11CoreML_test11AppDelegateC", "applicationSignificantTimeChange"]
+- ["11CoreML_test11AppDelegateC", "applicationWillEnterForeground"]
+- ["11CoreML_test11AppDelegateC", "applicationWillResignActive"]
+- ["11CoreML_test11AppDelegateC", "applicationWillTerminate"]
+- !private ["11CoreML_test11AppDelegateC", "buildDependencyComponent"]
+- !private ["11CoreML_test11AppDelegateC", "configureSVProgrssHUD"]
+- ["11CoreML_test11AppDelegateC", "container"]
+- ["11CoreML_test11AppDelegateC", "deinit"]
+- !private ["11CoreML_test11AppDelegateC", "fatalError"]
+- ["11CoreML_test11AppDelegateC", "init"]
+- !private ["11CoreML_test11AppDelegateC", "setupAppearence"]
+- ["11CoreML_test11AppDelegateC", "setupRootViewController"]
+- ["11CoreML_test11AppDelegateC", "window"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "appearance"]
+- !private ["So15CALayerDelegateP", "backIndicatorImage"]
+- !private ["So15CALayerDelegateP", "backIndicatorTransitionMaskImage"]
+- !private ["So15CALayerDelegateP", "makeKeyAndVisible"]
+- !private ["So15CALayerDelegateP", "rootViewController"]
+- !private ["So15CALayerDelegateP", "setMaximumDismissTimeInterval"]
+- !private ["So15CNKeyDescriptorP", "init"]
+- !private ["s7CVarArgP", "AppDIPart"]
+- !private ["s7CVarArgP", "DIContainer"]
+- !private ["s7CVarArgP", "MainDIPart"]
+- !private ["s7CVarArgP", "MapDIPart"]
+- !private ["s7CVarArgP", "NetworkDIPart"]
+- !private ["s7CVarArgP", "OCRDIPart"]
+- !private ["s7CVarArgP", "SVProgressHUD"]
+- !private ["s7CVarArgP", "TextDetectorDIPart"]
+- !private ["s7CVarArgP", "UINavigationBar"]
+- !private ["s7CVarArgP", "UINavigationController"]
+- !private ["s7CVarArgP", "appearance"]
+- ["s7CVarArgP", "application"]
+- ["s7CVarArgP", "applicationDidBecomeActive"]
+- ["s7CVarArgP", "applicationDidEnterBackground"]
+- ["s7CVarArgP", "applicationDidFinishLaunching"]
+- ["s7CVarArgP", "applicationDidReceiveMemoryWarning"]
+- ["s7CVarArgP", "applicationProtectedDataDidBecomeAvailable"]
+- ["s7CVarArgP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["s7CVarArgP", "applicationShouldRequestHealthAuthorization"]
+- ["s7CVarArgP", "applicationSignificantTimeChange"]
+- ["s7CVarArgP", "applicationWillEnterForeground"]
+- ["s7CVarArgP", "applicationWillResignActive"]
+- ["s7CVarArgP", "applicationWillTerminate"]
+- !private ["s7CVarArgP", "backIndicatorImage"]
+- !private ["s7CVarArgP", "backIndicatorTransitionMaskImage"]
+- !private ["s7CVarArgP", "buildDependencyComponent"]
+- !private ["s7CVarArgP", "configureSVProgrssHUD"]
+- !private ["s7CVarArgP", "container"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "makeKeyAndVisible"]
+- !private ["s7CVarArgP", "rootViewController"]
+- !private ["s7CVarArgP", "setMaximumDismissTimeInterval"]
+- !private ["s7CVarArgP", "setupAppearence"]
+- !private ["s7CVarArgP", "setupRootViewController"]
+- ["s7CVarArgP", "window"]
+- !private ["s7CVarArgP", "withRenderingMode"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "AppDIPart"]
+- !private ["s28CustomDebugStringConvertibleP", "DIContainer"]
+- !private ["s28CustomDebugStringConvertibleP", "MainDIPart"]
+- !private ["s28CustomDebugStringConvertibleP", "MapDIPart"]
+- !private ["s28CustomDebugStringConvertibleP", "NetworkDIPart"]
+- !private ["s28CustomDebugStringConvertibleP", "OCRDIPart"]
+- !private ["s28CustomDebugStringConvertibleP", "SVProgressHUD"]
+- !private ["s28CustomDebugStringConvertibleP", "TextDetectorDIPart"]
+- !private ["s28CustomDebugStringConvertibleP", "UINavigationBar"]
+- !private ["s28CustomDebugStringConvertibleP", "UINavigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "appearance"]
+- ["s28CustomDebugStringConvertibleP", "application"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidBecomeActive"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidEnterBackground"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidFinishLaunching"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidReceiveMemoryWarning"]
+- ["s28CustomDebugStringConvertibleP", "applicationProtectedDataDidBecomeAvailable"]
+- ["s28CustomDebugStringConvertibleP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["s28CustomDebugStringConvertibleP", "applicationShouldRequestHealthAuthorization"]
+- ["s28CustomDebugStringConvertibleP", "applicationSignificantTimeChange"]
+- ["s28CustomDebugStringConvertibleP", "applicationWillEnterForeground"]
+- ["s28CustomDebugStringConvertibleP", "applicationWillResignActive"]
+- ["s28CustomDebugStringConvertibleP", "applicationWillTerminate"]
+- !private ["s28CustomDebugStringConvertibleP", "backIndicatorImage"]
+- !private ["s28CustomDebugStringConvertibleP", "backIndicatorTransitionMaskImage"]
+- !private ["s28CustomDebugStringConvertibleP", "buildDependencyComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "configureSVProgrssHUD"]
+- !private ["s28CustomDebugStringConvertibleP", "container"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "makeKeyAndVisible"]
+- !private ["s28CustomDebugStringConvertibleP", "rootViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "setMaximumDismissTimeInterval"]
+- !private ["s28CustomDebugStringConvertibleP", "setupAppearence"]
+- !private ["s28CustomDebugStringConvertibleP", "setupRootViewController"]
+- ["s28CustomDebugStringConvertibleP", "window"]
+- !private ["s28CustomDebugStringConvertibleP", "withRenderingMode"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "AppDIPart"]
+- !private ["s23CustomStringConvertibleP", "DIContainer"]
+- !private ["s23CustomStringConvertibleP", "MainDIPart"]
+- !private ["s23CustomStringConvertibleP", "MapDIPart"]
+- !private ["s23CustomStringConvertibleP", "NetworkDIPart"]
+- !private ["s23CustomStringConvertibleP", "OCRDIPart"]
+- !private ["s23CustomStringConvertibleP", "SVProgressHUD"]
+- !private ["s23CustomStringConvertibleP", "TextDetectorDIPart"]
+- !private ["s23CustomStringConvertibleP", "UINavigationBar"]
+- !private ["s23CustomStringConvertibleP", "UINavigationController"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "appearance"]
+- ["s23CustomStringConvertibleP", "application"]
+- ["s23CustomStringConvertibleP", "applicationDidBecomeActive"]
+- ["s23CustomStringConvertibleP", "applicationDidEnterBackground"]
+- ["s23CustomStringConvertibleP", "applicationDidFinishLaunching"]
+- ["s23CustomStringConvertibleP", "applicationDidReceiveMemoryWarning"]
+- ["s23CustomStringConvertibleP", "applicationProtectedDataDidBecomeAvailable"]
+- ["s23CustomStringConvertibleP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["s23CustomStringConvertibleP", "applicationShouldRequestHealthAuthorization"]
+- ["s23CustomStringConvertibleP", "applicationSignificantTimeChange"]
+- ["s23CustomStringConvertibleP", "applicationWillEnterForeground"]
+- ["s23CustomStringConvertibleP", "applicationWillResignActive"]
+- ["s23CustomStringConvertibleP", "applicationWillTerminate"]
+- !private ["s23CustomStringConvertibleP", "backIndicatorImage"]
+- !private ["s23CustomStringConvertibleP", "backIndicatorTransitionMaskImage"]
+- !private ["s23CustomStringConvertibleP", "buildDependencyComponent"]
+- !private ["s23CustomStringConvertibleP", "configureSVProgrssHUD"]
+- !private ["s23CustomStringConvertibleP", "container"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "makeKeyAndVisible"]
+- !private ["s23CustomStringConvertibleP", "rootViewController"]
+- !private ["s23CustomStringConvertibleP", "setMaximumDismissTimeInterval"]
+- !private ["s23CustomStringConvertibleP", "setupAppearence"]
+- !private ["s23CustomStringConvertibleP", "setupRootViewController"]
+- ["s23CustomStringConvertibleP", "window"]
+- !private ["s23CustomStringConvertibleP", "withRenderingMode"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["14DITranquillity11DIContainerC", "append"]
+- !private ["14DITranquillity11DIContainerC", "init"]
+- !private ["14DITranquillity11DIContainerC", "validate"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "AppDIPart"]
+- !private ["s9EquatableP", "DIContainer"]
+- !private ["s9EquatableP", "MainDIPart"]
+- !private ["s9EquatableP", "MapDIPart"]
+- !private ["s9EquatableP", "NetworkDIPart"]
+- !private ["s9EquatableP", "OCRDIPart"]
+- !private ["s9EquatableP", "SVProgressHUD"]
+- !private ["s9EquatableP", "TextDetectorDIPart"]
+- !private ["s9EquatableP", "UINavigationBar"]
+- !private ["s9EquatableP", "UINavigationController"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "alwaysOriginal"]
+- !private ["s9EquatableP", "appearance"]
+- ["s9EquatableP", "application"]
+- ["s9EquatableP", "applicationDidBecomeActive"]
+- ["s9EquatableP", "applicationDidEnterBackground"]
+- ["s9EquatableP", "applicationDidFinishLaunching"]
+- ["s9EquatableP", "applicationDidReceiveMemoryWarning"]
+- ["s9EquatableP", "applicationProtectedDataDidBecomeAvailable"]
+- ["s9EquatableP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["s9EquatableP", "applicationShouldRequestHealthAuthorization"]
+- ["s9EquatableP", "applicationSignificantTimeChange"]
+- ["s9EquatableP", "applicationWillEnterForeground"]
+- ["s9EquatableP", "applicationWillResignActive"]
+- ["s9EquatableP", "applicationWillTerminate"]
+- !private ["s9EquatableP", "backIndicatorImage"]
+- !private ["s9EquatableP", "backIndicatorTransitionMaskImage"]
+- !private ["s9EquatableP", "buildDependencyComponent"]
+- !private ["s9EquatableP", "configureSVProgrssHUD"]
+- !private ["s9EquatableP", "container"]
+- !private ["s9EquatableP", "fatalError"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "makeKeyAndVisible"]
+- !private ["s9EquatableP", "rootViewController"]
+- !private ["s9EquatableP", "setMaximumDismissTimeInterval"]
+- !private ["s9EquatableP", "setupAppearence"]
+- !private ["s9EquatableP", "setupRootViewController"]
+- ["s9EquatableP", "window"]
+- !private ["s9EquatableP", "withRenderingMode"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "AppDIPart"]
+- !private ["s8HashableP", "DIContainer"]
+- !private ["s8HashableP", "MainDIPart"]
+- !private ["s8HashableP", "MapDIPart"]
+- !private ["s8HashableP", "NetworkDIPart"]
+- !private ["s8HashableP", "OCRDIPart"]
+- !private ["s8HashableP", "SVProgressHUD"]
+- !private ["s8HashableP", "TextDetectorDIPart"]
+- !private ["s8HashableP", "UINavigationBar"]
+- !private ["s8HashableP", "UINavigationController"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "alwaysOriginal"]
+- !private ["s8HashableP", "appearance"]
+- ["s8HashableP", "application"]
+- ["s8HashableP", "applicationDidBecomeActive"]
+- ["s8HashableP", "applicationDidEnterBackground"]
+- ["s8HashableP", "applicationDidFinishLaunching"]
+- ["s8HashableP", "applicationDidReceiveMemoryWarning"]
+- ["s8HashableP", "applicationProtectedDataDidBecomeAvailable"]
+- ["s8HashableP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["s8HashableP", "applicationShouldRequestHealthAuthorization"]
+- ["s8HashableP", "applicationSignificantTimeChange"]
+- ["s8HashableP", "applicationWillEnterForeground"]
+- ["s8HashableP", "applicationWillResignActive"]
+- ["s8HashableP", "applicationWillTerminate"]
+- !private ["s8HashableP", "backIndicatorImage"]
+- !private ["s8HashableP", "backIndicatorTransitionMaskImage"]
+- !private ["s8HashableP", "buildDependencyComponent"]
+- !private ["s8HashableP", "configureSVProgrssHUD"]
+- !private ["s8HashableP", "container"]
+- !private ["s8HashableP", "fatalError"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "makeKeyAndVisible"]
+- !private ["s8HashableP", "rootViewController"]
+- !private ["s8HashableP", "setMaximumDismissTimeInterval"]
+- !private ["s8HashableP", "setupAppearence"]
+- !private ["s8HashableP", "setupRootViewController"]
+- ["s8HashableP", "window"]
+- !private ["s8HashableP", "withRenderingMode"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["11CoreML_test10MainDIPartC", "deinit"]
+- !private ["11CoreML_test9MapDIPartC", "deinit"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "appearance"]
+- !private ["So8NSCodingP", "backIndicatorImage"]
+- !private ["So8NSCodingP", "backIndicatorTransitionMaskImage"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "makeKeyAndVisible"]
+- !private ["So8NSCodingP", "rootViewController"]
+- !private ["So8NSCodingP", "setMaximumDismissTimeInterval"]
+- !private ["So8NSCodingP", "withRenderingMode"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "withRenderingMode"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "withRenderingMode"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "AppDIPart"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "DIContainer"]
+- !private ["So8NSObjectC", "MainDIPart"]
+- !private ["So8NSObjectC", "MainViewController"]
+- !private ["So8NSObjectC", "MapDIPart"]
+- !private ["So8NSObjectC", "NetworkDIPart"]
+- !private ["So8NSObjectC", "OCRDIPart"]
+- !private ["So8NSObjectC", "SVProgressHUD"]
+- !private ["So8NSObjectC", "TextDetectorDIPart"]
+- ["So8NSObjectC", "UIApplication"]
+- ["So8NSObjectC", "UIApplicationLaunchOptionsKey"]
+- !private ["So8NSObjectC", "UINavigationBar"]
+- !private ["So8NSObjectC", "UINavigationController"]
+- ["So8NSObjectC", "UIWindow"]
+- !private ["So8NSObjectC", "appearance"]
+- ["So8NSObjectC", "application"]
+- ["So8NSObjectC", "applicationDidBecomeActive"]
+- ["So8NSObjectC", "applicationDidEnterBackground"]
+- ["So8NSObjectC", "applicationDidFinishLaunching"]
+- ["So8NSObjectC", "applicationDidReceiveMemoryWarning"]
+- ["So8NSObjectC", "applicationProtectedDataDidBecomeAvailable"]
+- ["So8NSObjectC", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So8NSObjectC", "applicationShouldRequestHealthAuthorization"]
+- ["So8NSObjectC", "applicationSignificantTimeChange"]
+- ["So8NSObjectC", "applicationWillEnterForeground"]
+- ["So8NSObjectC", "applicationWillResignActive"]
+- ["So8NSObjectC", "applicationWillTerminate"]
+- !private ["So8NSObjectC", "backIndicatorImage"]
+- !private ["So8NSObjectC", "backIndicatorTransitionMaskImage"]
+- ["So8NSObjectC", "buildDependencyComponent"]
+- ["So8NSObjectC", "configureSVProgrssHUD"]
+- ["So8NSObjectC", "container"]
+- !private ["So8NSObjectC", "fatalError"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "makeKeyAndVisible"]
+- !private ["So8NSObjectC", "rootViewController"]
+- !private ["So8NSObjectC", "setMaximumDismissTimeInterval"]
+- ["So8NSObjectC", "setupAppearence"]
+- ["So8NSObjectC", "setupRootViewController"]
+- ["So8NSObjectC", "window"]
+- !private ["So8NSObjectC", "withRenderingMode"]
+- !private ["So16NSObjectProtocolP", "AppDIPart"]
+- !private ["So16NSObjectProtocolP", "DIContainer"]
+- !private ["So16NSObjectProtocolP", "MainDIPart"]
+- !private ["So16NSObjectProtocolP", "MapDIPart"]
+- !private ["So16NSObjectProtocolP", "NetworkDIPart"]
+- !private ["So16NSObjectProtocolP", "OCRDIPart"]
+- !private ["So16NSObjectProtocolP", "SVProgressHUD"]
+- !private ["So16NSObjectProtocolP", "TextDetectorDIPart"]
+- !private ["So16NSObjectProtocolP", "UINavigationBar"]
+- !private ["So16NSObjectProtocolP", "UINavigationController"]
+- !private ["So16NSObjectProtocolP", "appearance"]
+- ["So16NSObjectProtocolP", "application"]
+- ["So16NSObjectProtocolP", "applicationDidBecomeActive"]
+- ["So16NSObjectProtocolP", "applicationDidEnterBackground"]
+- ["So16NSObjectProtocolP", "applicationDidFinishLaunching"]
+- ["So16NSObjectProtocolP", "applicationDidReceiveMemoryWarning"]
+- ["So16NSObjectProtocolP", "applicationProtectedDataDidBecomeAvailable"]
+- ["So16NSObjectProtocolP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So16NSObjectProtocolP", "applicationShouldRequestHealthAuthorization"]
+- ["So16NSObjectProtocolP", "applicationSignificantTimeChange"]
+- ["So16NSObjectProtocolP", "applicationWillEnterForeground"]
+- ["So16NSObjectProtocolP", "applicationWillResignActive"]
+- ["So16NSObjectProtocolP", "applicationWillTerminate"]
+- !private ["So16NSObjectProtocolP", "backIndicatorImage"]
+- !private ["So16NSObjectProtocolP", "backIndicatorTransitionMaskImage"]
+- !private ["So16NSObjectProtocolP", "buildDependencyComponent"]
+- !private ["So16NSObjectProtocolP", "configureSVProgrssHUD"]
+- !private ["So16NSObjectProtocolP", "container"]
+- !private ["So16NSObjectProtocolP", "fatalError"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "makeKeyAndVisible"]
+- !private ["So16NSObjectProtocolP", "rootViewController"]
+- !private ["So16NSObjectProtocolP", "setMaximumDismissTimeInterval"]
+- !private ["So16NSObjectProtocolP", "setupAppearence"]
+- !private ["So16NSObjectProtocolP", "setupRootViewController"]
+- ["So16NSObjectProtocolP", "window"]
+- !private ["So16NSObjectProtocolP", "withRenderingMode"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "withRenderingMode"]
+- !private ["So8NSStringC", "init"]
+- !private ["11CoreML_test13NetworkDIPartC", "deinit"]
+- !private ["11CoreML_test9OCRDIPartC", "deinit"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "alwaysOriginal"]
+- !private ["So13SVProgressHUDC", "setMaximumDismissTimeInterval"]
+- !private ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["11CoreML_test18TextDetectorDIPartC", "deinit"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "appearance"]
+- !private ["So29UIAccessibilityIdentificationP", "backIndicatorImage"]
+- !private ["So29UIAccessibilityIdentificationP", "backIndicatorTransitionMaskImage"]
+- !private ["So29UIAccessibilityIdentificationP", "makeKeyAndVisible"]
+- !private ["So29UIAccessibilityIdentificationP", "rootViewController"]
+- !private ["So29UIAccessibilityIdentificationP", "setMaximumDismissTimeInterval"]
+- !private ["So29UIAccessibilityIdentificationP", "withRenderingMode"]
+- !private ["So12UIAppearanceP", "appearance"]
+- !private ["So12UIAppearanceP", "backIndicatorImage"]
+- !private ["So12UIAppearanceP", "backIndicatorTransitionMaskImage"]
+- !private ["So12UIAppearanceP", "makeKeyAndVisible"]
+- !private ["So12UIAppearanceP", "rootViewController"]
+- !private ["So12UIAppearanceP", "setMaximumDismissTimeInterval"]
+- !private ["So21UIAppearanceContainerP", "appearance"]
+- !private ["So21UIAppearanceContainerP", "backIndicatorImage"]
+- !private ["So21UIAppearanceContainerP", "backIndicatorTransitionMaskImage"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "makeKeyAndVisible"]
+- !private ["So21UIAppearanceContainerP", "rootViewController"]
+- !private ["So21UIAppearanceContainerP", "setMaximumDismissTimeInterval"]
+- !private ["So21UIApplicationDelegateP", "AppDIPart"]
+- !private ["So21UIApplicationDelegateP", "DIContainer"]
+- !private ["So21UIApplicationDelegateP", "MainDIPart"]
+- !private ["So21UIApplicationDelegateP", "MapDIPart"]
+- !private ["So21UIApplicationDelegateP", "NetworkDIPart"]
+- !private ["So21UIApplicationDelegateP", "OCRDIPart"]
+- !private ["So21UIApplicationDelegateP", "SVProgressHUD"]
+- !private ["So21UIApplicationDelegateP", "TextDetectorDIPart"]
+- !private ["So21UIApplicationDelegateP", "UINavigationBar"]
+- !private ["So21UIApplicationDelegateP", "UINavigationController"]
+- ["So21UIApplicationDelegateP", "application"]
+- ["So21UIApplicationDelegateP", "applicationDidBecomeActive"]
+- ["So21UIApplicationDelegateP", "applicationDidEnterBackground"]
+- ["So21UIApplicationDelegateP", "applicationDidFinishLaunching"]
+- ["So21UIApplicationDelegateP", "applicationDidReceiveMemoryWarning"]
+- ["So21UIApplicationDelegateP", "applicationProtectedDataDidBecomeAvailable"]
+- ["So21UIApplicationDelegateP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So21UIApplicationDelegateP", "applicationShouldRequestHealthAuthorization"]
+- ["So21UIApplicationDelegateP", "applicationSignificantTimeChange"]
+- ["So21UIApplicationDelegateP", "applicationWillEnterForeground"]
+- ["So21UIApplicationDelegateP", "applicationWillResignActive"]
+- ["So21UIApplicationDelegateP", "applicationWillTerminate"]
+- !private ["So21UIApplicationDelegateP", "buildDependencyComponent"]
+- !private ["So21UIApplicationDelegateP", "configureSVProgrssHUD"]
+- !private ["So21UIApplicationDelegateP", "container"]
+- !private ["So21UIApplicationDelegateP", "fatalError"]
+- !private ["So21UIApplicationDelegateP", "setupAppearence"]
+- !private ["So21UIApplicationDelegateP", "setupRootViewController"]
+- ["So21UIApplicationDelegateP", "window"]
+- ["So21UIApplicationDelegateP", ""]
+- !private ["So16UIBarPositioningP", "appearance"]
+- !private ["So16UIBarPositioningP", "backIndicatorImage"]
+- !private ["So16UIBarPositioningP", "backIndicatorTransitionMaskImage"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So17UICoordinateSpaceP", "appearance"]
+- !private ["So17UICoordinateSpaceP", "backIndicatorImage"]
+- !private ["So17UICoordinateSpaceP", "backIndicatorTransitionMaskImage"]
+- !private ["So17UICoordinateSpaceP", "makeKeyAndVisible"]
+- !private ["So17UICoordinateSpaceP", "rootViewController"]
+- !private ["So17UICoordinateSpaceP", "setMaximumDismissTimeInterval"]
+- !private ["So13UIDynamicItemP", "appearance"]
+- !private ["So13UIDynamicItemP", "backIndicatorImage"]
+- !private ["So13UIDynamicItemP", "backIndicatorTransitionMaskImage"]
+- !private ["So13UIDynamicItemP", "makeKeyAndVisible"]
+- !private ["So13UIDynamicItemP", "rootViewController"]
+- !private ["So13UIDynamicItemP", "setMaximumDismissTimeInterval"]
+- !private ["So18UIFocusEnvironmentP", "appearance"]
+- !private ["So18UIFocusEnvironmentP", "backIndicatorImage"]
+- !private ["So18UIFocusEnvironmentP", "backIndicatorTransitionMaskImage"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "makeKeyAndVisible"]
+- !private ["So18UIFocusEnvironmentP", "rootViewController"]
+- !private ["So18UIFocusEnvironmentP", "setMaximumDismissTimeInterval"]
+- !private ["So11UIFocusItemP", "appearance"]
+- !private ["So11UIFocusItemP", "backIndicatorImage"]
+- !private ["So11UIFocusItemP", "backIndicatorTransitionMaskImage"]
+- !private ["So11UIFocusItemP", "makeKeyAndVisible"]
+- !private ["So11UIFocusItemP", "rootViewController"]
+- !private ["So11UIFocusItemP", "setMaximumDismissTimeInterval"]
+- !private ["So7UIImageC", "withRenderingMode"]
+- !private ["SC20UIImageRenderingModeO", "alwaysOriginal"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "withRenderingMode"]
+- !private ["So15UINavigationBarC", "appearance"]
+- !private ["So15UINavigationBarC", "backIndicatorImage"]
+- !private ["So15UINavigationBarC", "backIndicatorTransitionMaskImage"]
+- !private ["So22UINavigationControllerC", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "AppDIPart"]
+- !private ["So30UIPasteConfigurationSupportingP", "DIContainer"]
+- !private ["So30UIPasteConfigurationSupportingP", "MainDIPart"]
+- !private ["So30UIPasteConfigurationSupportingP", "MapDIPart"]
+- !private ["So30UIPasteConfigurationSupportingP", "NetworkDIPart"]
+- !private ["So30UIPasteConfigurationSupportingP", "OCRDIPart"]
+- !private ["So30UIPasteConfigurationSupportingP", "SVProgressHUD"]
+- !private ["So30UIPasteConfigurationSupportingP", "TextDetectorDIPart"]
+- !private ["So30UIPasteConfigurationSupportingP", "UINavigationBar"]
+- !private ["So30UIPasteConfigurationSupportingP", "UINavigationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "appearance"]
+- ["So30UIPasteConfigurationSupportingP", "application"]
+- ["So30UIPasteConfigurationSupportingP", "applicationDidBecomeActive"]
+- ["So30UIPasteConfigurationSupportingP", "applicationDidEnterBackground"]
+- ["So30UIPasteConfigurationSupportingP", "applicationDidFinishLaunching"]
+- ["So30UIPasteConfigurationSupportingP", "applicationDidReceiveMemoryWarning"]
+- ["So30UIPasteConfigurationSupportingP", "applicationProtectedDataDidBecomeAvailable"]
+- ["So30UIPasteConfigurationSupportingP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So30UIPasteConfigurationSupportingP", "applicationShouldRequestHealthAuthorization"]
+- ["So30UIPasteConfigurationSupportingP", "applicationSignificantTimeChange"]
+- ["So30UIPasteConfigurationSupportingP", "applicationWillEnterForeground"]
+- ["So30UIPasteConfigurationSupportingP", "applicationWillResignActive"]
+- ["So30UIPasteConfigurationSupportingP", "applicationWillTerminate"]
+- !private ["So30UIPasteConfigurationSupportingP", "backIndicatorImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "backIndicatorTransitionMaskImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "buildDependencyComponent"]
+- !private ["So30UIPasteConfigurationSupportingP", "configureSVProgrssHUD"]
+- !private ["So30UIPasteConfigurationSupportingP", "container"]
+- !private ["So30UIPasteConfigurationSupportingP", "fatalError"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "makeKeyAndVisible"]
+- !private ["So30UIPasteConfigurationSupportingP", "rootViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "setMaximumDismissTimeInterval"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupAppearence"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupRootViewController"]
+- ["So30UIPasteConfigurationSupportingP", "window"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So11UIResponderC", "AppDIPart"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "DIContainer"]
+- !private ["So11UIResponderC", "MainDIPart"]
+- !private ["So11UIResponderC", "MainViewController"]
+- !private ["So11UIResponderC", "MapDIPart"]
+- !private ["So11UIResponderC", "NetworkDIPart"]
+- !private ["So11UIResponderC", "OCRDIPart"]
+- !private ["So11UIResponderC", "SVProgressHUD"]
+- !private ["So11UIResponderC", "TextDetectorDIPart"]
+- ["So11UIResponderC", "UIApplication"]
+- ["So11UIResponderC", "UIApplicationLaunchOptionsKey"]
+- !private ["So11UIResponderC", "UINavigationBar"]
+- !private ["So11UIResponderC", "UINavigationController"]
+- ["So11UIResponderC", "UIWindow"]
+- !private ["So11UIResponderC", "appearance"]
+- ["So11UIResponderC", "application"]
+- ["So11UIResponderC", "applicationDidBecomeActive"]
+- ["So11UIResponderC", "applicationDidEnterBackground"]
+- ["So11UIResponderC", "applicationDidFinishLaunching"]
+- ["So11UIResponderC", "applicationDidReceiveMemoryWarning"]
+- ["So11UIResponderC", "applicationProtectedDataDidBecomeAvailable"]
+- ["So11UIResponderC", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So11UIResponderC", "applicationShouldRequestHealthAuthorization"]
+- ["So11UIResponderC", "applicationSignificantTimeChange"]
+- ["So11UIResponderC", "applicationWillEnterForeground"]
+- ["So11UIResponderC", "applicationWillResignActive"]
+- ["So11UIResponderC", "applicationWillTerminate"]
+- !private ["So11UIResponderC", "backIndicatorImage"]
+- !private ["So11UIResponderC", "backIndicatorTransitionMaskImage"]
+- ["So11UIResponderC", "buildDependencyComponent"]
+- ["So11UIResponderC", "configureSVProgrssHUD"]
+- ["So11UIResponderC", "container"]
+- !private ["So11UIResponderC", "fatalError"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "makeKeyAndVisible"]
+- !private ["So11UIResponderC", "rootViewController"]
+- !private ["So11UIResponderC", "setMaximumDismissTimeInterval"]
+- ["So11UIResponderC", "setupAppearence"]
+- ["So11UIResponderC", "setupRootViewController"]
+- ["So11UIResponderC", "window"]
+- ["So11UIResponderC", ""]
+- !private ["So30UIResponderStandardEditActionsP", "AppDIPart"]
+- !private ["So30UIResponderStandardEditActionsP", "DIContainer"]
+- !private ["So30UIResponderStandardEditActionsP", "MainDIPart"]
+- !private ["So30UIResponderStandardEditActionsP", "MapDIPart"]
+- !private ["So30UIResponderStandardEditActionsP", "NetworkDIPart"]
+- !private ["So30UIResponderStandardEditActionsP", "OCRDIPart"]
+- !private ["So30UIResponderStandardEditActionsP", "SVProgressHUD"]
+- !private ["So30UIResponderStandardEditActionsP", "TextDetectorDIPart"]
+- !private ["So30UIResponderStandardEditActionsP", "UINavigationBar"]
+- !private ["So30UIResponderStandardEditActionsP", "UINavigationController"]
+- !private ["So30UIResponderStandardEditActionsP", "appearance"]
+- ["So30UIResponderStandardEditActionsP", "application"]
+- ["So30UIResponderStandardEditActionsP", "applicationDidBecomeActive"]
+- ["So30UIResponderStandardEditActionsP", "applicationDidEnterBackground"]
+- ["So30UIResponderStandardEditActionsP", "applicationDidFinishLaunching"]
+- ["So30UIResponderStandardEditActionsP", "applicationDidReceiveMemoryWarning"]
+- ["So30UIResponderStandardEditActionsP", "applicationProtectedDataDidBecomeAvailable"]
+- ["So30UIResponderStandardEditActionsP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So30UIResponderStandardEditActionsP", "applicationShouldRequestHealthAuthorization"]
+- ["So30UIResponderStandardEditActionsP", "applicationSignificantTimeChange"]
+- ["So30UIResponderStandardEditActionsP", "applicationWillEnterForeground"]
+- ["So30UIResponderStandardEditActionsP", "applicationWillResignActive"]
+- ["So30UIResponderStandardEditActionsP", "applicationWillTerminate"]
+- !private ["So30UIResponderStandardEditActionsP", "backIndicatorImage"]
+- !private ["So30UIResponderStandardEditActionsP", "backIndicatorTransitionMaskImage"]
+- !private ["So30UIResponderStandardEditActionsP", "buildDependencyComponent"]
+- !private ["So30UIResponderStandardEditActionsP", "configureSVProgrssHUD"]
+- !private ["So30UIResponderStandardEditActionsP", "container"]
+- !private ["So30UIResponderStandardEditActionsP", "fatalError"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "makeKeyAndVisible"]
+- !private ["So30UIResponderStandardEditActionsP", "rootViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "setMaximumDismissTimeInterval"]
+- !private ["So30UIResponderStandardEditActionsP", "setupAppearence"]
+- !private ["So30UIResponderStandardEditActionsP", "setupRootViewController"]
+- ["So30UIResponderStandardEditActionsP", "window"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So18UITraitEnvironmentP", "appearance"]
+- !private ["So18UITraitEnvironmentP", "backIndicatorImage"]
+- !private ["So18UITraitEnvironmentP", "backIndicatorTransitionMaskImage"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "makeKeyAndVisible"]
+- !private ["So18UITraitEnvironmentP", "rootViewController"]
+- !private ["So18UITraitEnvironmentP", "setMaximumDismissTimeInterval"]
+- !private ["So6UIViewC", "appearance"]
+- !private ["So6UIViewC", "backIndicatorImage"]
+- !private ["So6UIViewC", "backIndicatorTransitionMaskImage"]
+- !private ["So6UIViewC", "makeKeyAndVisible"]
+- !private ["So6UIViewC", "rootViewController"]
+- !private ["So6UIViewC", "setMaximumDismissTimeInterval"]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["So8UIWindowC", "makeKeyAndVisible"]
+- !private ["So8UIWindowC", "rootViewController"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "appearance"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backIndicatorImage"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backIndicatorTransitionMaskImage"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "makeKeyAndVisible"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "rootViewController"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setMaximumDismissTimeInterval"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "withRenderingMode"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AppDIPart"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DIContainer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MainDIPart"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MapDIPart"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NetworkDIPart"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "OCRDIPart"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SVProgressHUD"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TextDetectorDIPart"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UINavigationBar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UINavigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "appearance"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "application"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidBecomeActive"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidEnterBackground"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidFinishLaunching"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidReceiveMemoryWarning"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationProtectedDataDidBecomeAvailable"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationShouldRequestHealthAuthorization"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationSignificantTimeChange"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillEnterForeground"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillResignActive"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillTerminate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backIndicatorImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backIndicatorTransitionMaskImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "buildDependencyComponent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "configureSVProgrssHUD"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "container"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "makeKeyAndVisible"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rootViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setMaximumDismissTimeInterval"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupAppearence"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupRootViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "window"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "withRenderingMode"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "11CoreML_test9AppDIPartC"
+- "11CoreML_test11AppDelegateC"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- !private "So15CNKeyDescriptorP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "14DITranquillity11DIContainerC"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "11CoreML_test10MainDIPartC"
+- !private "11CoreML_test9MapDIPartC"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "11CoreML_test13NetworkDIPartC"
+- !private "11CoreML_test9OCRDIPartC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "So13SVProgressHUDC"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "11CoreML_test18TextDetectorDIPartC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- "So21UIApplicationDelegateP"
+- !private "So16UIBarPositioningP"
+- !private "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So7UIImageC"
+- !private "SC20UIImageRenderingModeO"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So15UINavigationBarC"
+- !private "So22UINavigationControllerC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "So16UIViewControllerC"
+- !private "So8UIWindowC"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/DITranquillity/DITranquillity.framework/Modules/DITranquillity.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Vision.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/DITranquillity/DITranquillity.framework/Headers/DITranquillity-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/DITranquillity/DITranquillity.framework/Headers/DIStoryboardBase.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/DITranquillity/DITranquillity.framework/Headers/DITranquillity-Swift.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/DITranquillity/DITranquillity.framework/Headers/DITranquillity.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Debug-iphonesimulator/DITranquillity/DITranquillity.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreML.framework/Headers/CoreML.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/Vision.framework/Headers/Vision.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/Contacts.framework/Headers/Contacts.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "2ee1eb3c100ede4b37b076781052481d"

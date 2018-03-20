@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "1b54d0284b448d49400ba44c7430a819"
+build_time: [1520683651, 493091000]
+inputs:
+  "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/Pods/RxAlamofire/Sources/RxAlamofire.swift": [1520683336, 0]

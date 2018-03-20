@@ -1,0 +1,190 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DISetting"
+provides-nominal:
+- "14DITranquillity9DISettingV"
+- "14DITranquillity9DISettingV8DefaultsV"
+- "14DITranquillity9DISettingV3LogV"
+provides-member:
+- ["14DITranquillity9DISettingV", ""]
+- ["14DITranquillity9DISettingV8DefaultsV", ""]
+- ["14DITranquillity9DISettingV3LogV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "DILifeTime"
+- "DILogFunc"
+- "DILogLevel"
+- "DISetting"
+- "String"
+- "StringLiteralType"
+- "UInt8"
+- "UnicodeScalar"
+- "print"
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- ["s13BinaryIntegerP", "init"]
+- ["s7CVarArgP", "init"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["14DITranquillity10DILifeTimeO", "prototype"]
+- ["14DITranquillity10DILogLevelO", "warning"]
+- ["14DITranquillity9DISettingV", "DILifeTime"]
+- ["14DITranquillity9DISettingV", "DILogFunc"]
+- ["14DITranquillity9DISettingV", "DILogLevel"]
+- ["14DITranquillity9DISettingV", "Defaults"]
+- ["14DITranquillity9DISettingV", "Log"]
+- ["14DITranquillity9DISettingV", "String"]
+- ["14DITranquillity9DISettingV", "UInt8"]
+- ["14DITranquillity9DISettingV", "UnicodeScalar"]
+- ["14DITranquillity9DISettingV", "init"]
+- ["14DITranquillity9DISettingV", "print"]
+- ["s9DecodableP", "init"]
+- ["14DITranquillity9DISettingV8DefaultsV", "DILifeTime"]
+- ["14DITranquillity9DISettingV8DefaultsV", "init"]
+- ["14DITranquillity9DISettingV8DefaultsV", "lifeTime"]
+- ["s9EncodableP", "init"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "prototype"]
+- ["s9EquatableP", "warning"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s17FixedWidthIntegerP", "init"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "prototype"]
+- ["s8HashableP", "warning"]
+- ["14DITranquillity9DISettingV3LogV", "DILogFunc"]
+- ["14DITranquillity9DISettingV3LogV", "DILogLevel"]
+- ["14DITranquillity9DISettingV3LogV", "String"]
+- ["14DITranquillity9DISettingV3LogV", "UInt8"]
+- ["14DITranquillity9DISettingV3LogV", "UnicodeScalar"]
+- ["14DITranquillity9DISettingV3LogV", "fun"]
+- ["14DITranquillity9DISettingV3LogV", "init"]
+- ["14DITranquillity9DISettingV3LogV", "level"]
+- ["14DITranquillity9DISettingV3LogV", "print"]
+- ["14DITranquillity9DISettingV3LogV", "tab"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "init"]
+- ["So9NSCopyingP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So16NSObjectProtocolP", "init"]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- ["s7NumericP", "init"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s7UnicodeO6ScalarV", "init"]
+- ["s8SequenceP", "init"]
+- ["s10StrideableP", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s5UInt8V", "init"]
+- ["s15UnsignedIntegerP", "init"]
+- ["s23_BidirectionalIndexableP", "init"]
+- ["s18_BitwiseOperationsP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- ["s11_StrideableP", "init"]
+- ["s14_StringElementP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- "s13BinaryIntegerP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "14DITranquillity10DILifeTimeO"
+- "14DITranquillity10DILogLevelO"
+- "14DITranquillity9DISettingV"
+- "s9DecodableP"
+- "14DITranquillity9DISettingV8DefaultsV"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- "s8HashableP"
+- "14DITranquillity9DISettingV3LogV"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- "s7NumericP"
+- "s26RangeReplaceableCollectionP"
+- "s7UnicodeO6ScalarV"
+- "s8SequenceP"
+- "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "s5UInt8V"
+- "s15UnsignedIntegerP"
+- "s23_BidirectionalIndexableP"
+- "s18_BitwiseOperationsP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- "s11_StrideableP"
+- "s14_StringElementP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/Pods/Target Support Files/DITranquillity/DITranquillity-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/Pods/DITranquillity/Sources/Storyboard/iOS-tvOS/DIStoryboardBase.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/Pods/DITranquillity/Sources/DITranquillity.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Pods.build/Debug-iphonesimulator/DITranquillity.build/unextended-module.modulemap"
+interface-hash: "963822090b38e785433210b605bbd934"

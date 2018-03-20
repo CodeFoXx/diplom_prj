@@ -1,0 +1,27 @@
+# Uncomment the next line to define a global platform for your project
+#platform :ios, '9.0'
+
+target ‘CoreML_test’ do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'DITranquillity'
+  pod 'RxAlamofire'
+  pod 'ObjectMapper'
+  pod 'CodableAlamofire'
+  pod 'SwiftHash'
+  pod 'Localize-Swift'
+  pod 'SVProgressHUD'
+
+  # Pods for CoreML_test
+
+  target 'CoreML_testTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'CoreML_testUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

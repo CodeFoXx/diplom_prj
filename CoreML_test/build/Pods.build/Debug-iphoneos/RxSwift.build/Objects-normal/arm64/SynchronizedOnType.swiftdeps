@@ -1,0 +1,56 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SynchronizedOnType"
+provides-nominal:
+- "7RxSwift18SynchronizedOnTypeP"
+provides-member:
+- ["7RxSwift18SynchronizedOnTypeP", ""]
+- ["7RxSwift18SynchronizedOnTypeP", "synchronizedOn"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyObject"
+- "Event"
+- "Lock"
+- "ObserverType"
+- "SynchronizedOnType"
+depends-member:
+- ["7RxSwift4LockP", "E"]
+- ["7RxSwift4LockP", "Event"]
+- ["7RxSwift4LockP", "_synchronized_on"]
+- !private ["7RxSwift4LockP", "lock"]
+- !private ["7RxSwift4LockP", "unlock"]
+- ["7RxSwift4LockP", ""]
+- ["7RxSwift12ObserverTypeP", "E"]
+- ["7RxSwift12ObserverTypeP", "Event"]
+- ["7RxSwift12ObserverTypeP", "_synchronized_on"]
+- !private ["7RxSwift12ObserverTypeP", "lock"]
+- !private ["7RxSwift12ObserverTypeP", "unlock"]
+- ["7RxSwift12ObserverTypeP", ""]
+- ["7RxSwift18SynchronizedOnTypeP", "E"]
+- ["7RxSwift18SynchronizedOnTypeP", "Event"]
+- ["7RxSwift18SynchronizedOnTypeP", "_synchronized_on"]
+- !private ["7RxSwift18SynchronizedOnTypeP", "lock"]
+- ["7RxSwift18SynchronizedOnTypeP", "synchronizedOn"]
+- !private ["7RxSwift18SynchronizedOnTypeP", "unlock"]
+depends-nominal:
+- "7RxSwift4LockP"
+- "7RxSwift12ObserverTypeP"
+- "7RxSwift18SynchronizedOnTypeP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Pods.build/Debug-iphoneos/RxSwift.build/unextended-module.modulemap"
+interface-hash: "55b346ec00b1b251eda262ac6f96fe14"

@@ -1,0 +1,117 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DIScanFramework"
+provides-nominal:
+- "14DITranquillity15DIScanFrameworkC"
+- "14DITranquillity15DIScanFrameworkC9PredicateO"
+provides-member:
+- ["14DITranquillity15DIScanFrameworkC", ""]
+- ["14DITranquillity15DIScanFrameworkC9PredicateO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "AnyClass"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "DIContainer"
+- "DIFramework"
+- "DIScan"
+- "DIScanFramework"
+- "String"
+- !private "name"
+depends-member:
+- ["s28CustomDebugStringConvertibleP", "none"]
+- ["s28CustomDebugStringConvertibleP", "some"]
+- ["s17CustomReflectableP", "none"]
+- ["s17CustomReflectableP", "some"]
+- !private ["14DITranquillity11DIContainerC", "append"]
+- ["14DITranquillity11DIFrameworkP", "bundle"]
+- ["14DITranquillity11DIFrameworkP", "load"]
+- !private ["14DITranquillity11DIFrameworkP", "name"]
+- !private ["14DITranquillity11DIFrameworkP", "predicate"]
+- !private ["14DITranquillity11DIFrameworkP", "types"]
+- ["14DITranquillity11DIFrameworkP", ""]
+- !private ["14DITranquillity6DIScanC", "AnyClass"]
+- ["14DITranquillity6DIScanC", "Bool"]
+- ["14DITranquillity6DIScanC", "DIContainer"]
+- ["14DITranquillity6DIScanC", "DIFramework"]
+- ["14DITranquillity6DIScanC", "Predicate"]
+- ["14DITranquillity6DIScanC", "String"]
+- ["14DITranquillity6DIScanC", "bundle"]
+- ["14DITranquillity6DIScanC", "init"]
+- ["14DITranquillity6DIScanC", "load"]
+- !private ["14DITranquillity6DIScanC", "name"]
+- ["14DITranquillity6DIScanC", "predicate"]
+- !private ["14DITranquillity6DIScanC", "types"]
+- ["14DITranquillity6DIScanC", ""]
+- !private ["14DITranquillity15DIScanFrameworkC", "AnyClass"]
+- ["14DITranquillity15DIScanFrameworkC", "Bool"]
+- ["14DITranquillity15DIScanFrameworkC", "DIContainer"]
+- ["14DITranquillity15DIScanFrameworkC", "DIFramework"]
+- ["14DITranquillity15DIScanFrameworkC", "Predicate"]
+- ["14DITranquillity15DIScanFrameworkC", "String"]
+- ["14DITranquillity15DIScanFrameworkC", "bundle"]
+- ["14DITranquillity15DIScanFrameworkC", "deinit"]
+- ["14DITranquillity15DIScanFrameworkC", "init"]
+- ["14DITranquillity15DIScanFrameworkC", "load"]
+- !private ["14DITranquillity15DIScanFrameworkC", "name"]
+- ["14DITranquillity15DIScanFrameworkC", "predicate"]
+- !private ["14DITranquillity15DIScanFrameworkC", "types"]
+- ["s9DecodableP", "none"]
+- ["s9DecodableP", "some"]
+- ["s9EncodableP", "none"]
+- ["s9EncodableP", "some"]
+- ["s23ExpressibleByNilLiteralP", "none"]
+- ["s23ExpressibleByNilLiteralP", "some"]
+- ["14DITranquillity10IsOptionalP", "none"]
+- ["14DITranquillity10IsOptionalP", "some"]
+- ["Sq", "none"]
+- ["Sq", "some"]
+- ["14DITranquillity12OptionalMakeP", "none"]
+- ["14DITranquillity12OptionalMakeP", "some"]
+- ["14DITranquillity15DIScanFrameworkC9PredicateO", "Bool"]
+- ["14DITranquillity15DIScanFrameworkC9PredicateO", "DIFramework"]
+- ["14DITranquillity15DIScanFrameworkC9PredicateO", "String"]
+- ["14DITranquillity15DIScanFrameworkC9PredicateO", "name"]
+- ["14DITranquillity15DIScanFrameworkC9PredicateO", "type"]
+- ["14DITranquillity10TypeGetterP", "none"]
+- ["14DITranquillity10TypeGetterP", "some"]
+- ["s21_ObjectiveCBridgeableP", "none"]
+- ["s21_ObjectiveCBridgeableP", "some"]
+depends-nominal:
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- !private "14DITranquillity11DIContainerC"
+- "14DITranquillity11DIFrameworkP"
+- "14DITranquillity6DIScanC"
+- "14DITranquillity15DIScanFrameworkC"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s23ExpressibleByNilLiteralP"
+- "14DITranquillity10IsOptionalP"
+- "Sq"
+- "14DITranquillity12OptionalMakeP"
+- "14DITranquillity15DIScanFrameworkC9PredicateO"
+- "14DITranquillity10TypeGetterP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Target Support Files/DITranquillity/DITranquillity-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/DITranquillity/Sources/Storyboard/iOS-tvOS/DIStoryboardBase.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/DITranquillity/Sources/DITranquillity.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Pods.build/Debug-iphoneos/DITranquillity.build/unextended-module.modulemap"
+interface-hash: "eba2a0a009493fa80c963e8ef0fae27e"

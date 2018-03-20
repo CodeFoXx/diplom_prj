@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "a83e6bf5ff8cf02e3b55f783b8e17b43"
+build_time: [1520683648, 502616000]
+inputs:
+  "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/Pods/SwiftHash/Sources/MD5.swift": [1520683336, 0]
+  "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/Pods/SwiftHash/Sources/SHA1.swift": [1520683336, 0]

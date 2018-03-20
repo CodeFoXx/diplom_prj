@@ -1,0 +1,120 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DIScanPart"
+provides-nominal:
+- "14DITranquillity10DIScanPartC"
+- "14DITranquillity10DIScanPartC9PredicateO"
+provides-member:
+- ["14DITranquillity10DIScanPartC", ""]
+- ["14DITranquillity10DIScanPartC9PredicateO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "AnyClass"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Bundle"
+- "CastingPrecedence"
+- "DIContainer"
+- "DIPart"
+- "DIScan"
+- "DIScanPart"
+- "String"
+- !private "name"
+depends-member:
+- ["s28CustomDebugStringConvertibleP", "none"]
+- ["s28CustomDebugStringConvertibleP", "some"]
+- ["s17CustomReflectableP", "none"]
+- ["s17CustomReflectableP", "some"]
+- !private ["14DITranquillity11DIContainerC", "append"]
+- !private ["14DITranquillity6DIPartP", "bundle"]
+- ["14DITranquillity6DIPartP", "load"]
+- !private ["14DITranquillity6DIPartP", "name"]
+- !private ["14DITranquillity6DIPartP", "predicate"]
+- !private ["14DITranquillity6DIPartP", "types"]
+- ["14DITranquillity6DIPartP", ""]
+- !private ["14DITranquillity6DIScanC", "AnyClass"]
+- ["14DITranquillity6DIScanC", "Bool"]
+- ["14DITranquillity6DIScanC", "Bundle"]
+- ["14DITranquillity6DIScanC", "DIContainer"]
+- ["14DITranquillity6DIScanC", "DIPart"]
+- ["14DITranquillity6DIScanC", "Predicate"]
+- ["14DITranquillity6DIScanC", "String"]
+- ["14DITranquillity6DIScanC", "bundle"]
+- ["14DITranquillity6DIScanC", "init"]
+- ["14DITranquillity6DIScanC", "load"]
+- !private ["14DITranquillity6DIScanC", "name"]
+- ["14DITranquillity6DIScanC", "predicate"]
+- !private ["14DITranquillity6DIScanC", "types"]
+- ["14DITranquillity6DIScanC", ""]
+- !private ["14DITranquillity10DIScanPartC", "AnyClass"]
+- ["14DITranquillity10DIScanPartC", "Bool"]
+- ["14DITranquillity10DIScanPartC", "Bundle"]
+- ["14DITranquillity10DIScanPartC", "DIContainer"]
+- ["14DITranquillity10DIScanPartC", "DIPart"]
+- ["14DITranquillity10DIScanPartC", "Predicate"]
+- ["14DITranquillity10DIScanPartC", "String"]
+- ["14DITranquillity10DIScanPartC", "bundle"]
+- ["14DITranquillity10DIScanPartC", "deinit"]
+- ["14DITranquillity10DIScanPartC", "init"]
+- ["14DITranquillity10DIScanPartC", "load"]
+- !private ["14DITranquillity10DIScanPartC", "name"]
+- ["14DITranquillity10DIScanPartC", "predicate"]
+- !private ["14DITranquillity10DIScanPartC", "types"]
+- ["s9DecodableP", "none"]
+- ["s9DecodableP", "some"]
+- ["s9EncodableP", "none"]
+- ["s9EncodableP", "some"]
+- ["s23ExpressibleByNilLiteralP", "none"]
+- ["s23ExpressibleByNilLiteralP", "some"]
+- ["14DITranquillity10IsOptionalP", "none"]
+- ["14DITranquillity10IsOptionalP", "some"]
+- ["Sq", "none"]
+- ["Sq", "some"]
+- ["14DITranquillity12OptionalMakeP", "none"]
+- ["14DITranquillity12OptionalMakeP", "some"]
+- ["14DITranquillity10DIScanPartC9PredicateO", "Bool"]
+- ["14DITranquillity10DIScanPartC9PredicateO", "DIPart"]
+- ["14DITranquillity10DIScanPartC9PredicateO", "String"]
+- ["14DITranquillity10DIScanPartC9PredicateO", "name"]
+- ["14DITranquillity10DIScanPartC9PredicateO", "type"]
+- ["14DITranquillity10TypeGetterP", "none"]
+- ["14DITranquillity10TypeGetterP", "some"]
+- ["s21_ObjectiveCBridgeableP", "none"]
+- ["s21_ObjectiveCBridgeableP", "some"]
+depends-nominal:
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- !private "14DITranquillity11DIContainerC"
+- "14DITranquillity6DIPartP"
+- "14DITranquillity6DIScanC"
+- "14DITranquillity10DIScanPartC"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s23ExpressibleByNilLiteralP"
+- "14DITranquillity10IsOptionalP"
+- "Sq"
+- "14DITranquillity12OptionalMakeP"
+- "14DITranquillity10DIScanPartC9PredicateO"
+- "14DITranquillity10TypeGetterP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/Pods/Target Support Files/DITranquillity/DITranquillity-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/Pods/DITranquillity/Sources/Storyboard/iOS-tvOS/DIStoryboardBase.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/Pods/DITranquillity/Sources/DITranquillity.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Pods.build/Debug-iphonesimulator/DITranquillity.build/unextended-module.modulemap"
+interface-hash: "002593b70f653c9735b071a4a8986c9d"

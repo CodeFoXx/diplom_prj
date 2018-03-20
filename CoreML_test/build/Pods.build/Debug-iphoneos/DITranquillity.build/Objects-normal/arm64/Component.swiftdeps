@@ -1,0 +1,271 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Injection"
+- "ComponentContainer"
+- "Component"
+- "=="
+provides-nominal:
+- "14DITranquillity18ComponentContainerC"
+- "14DITranquillity9ComponentC"
+provides-member:
+- ["14DITranquillity18ComponentContainerC", ""]
+- ["14DITranquillity9ComponentC", ""]
+- ["14DITranquillity9ComponentC", "set"]
+- ["14DITranquillity9ComponentC", "append"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "??"
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Bundle"
+- "Component"
+- "ComponentContainer"
+- "DIComponentInfo"
+- "DILifeTime"
+- "Dictionary"
+- "Hashable"
+- "Injection"
+- "Int"
+- "MethodSignature"
+- "PThreadMutex"
+- "Set"
+- "ShortTypeKey"
+- "TypeKey"
+- !private "getBundle"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "insert"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "values"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "flatMap"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "insert"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10CollectionP", "values"]
+- ["14DITranquillity9ComponentC", "=="]
+- ["14DITranquillity9ComponentC", "Bool"]
+- ["14DITranquillity9ComponentC", "Bundle"]
+- ["14DITranquillity9ComponentC", "Component"]
+- ["14DITranquillity9ComponentC", "DIComponentInfo"]
+- ["14DITranquillity9ComponentC", "DILifeTime"]
+- ["14DITranquillity9ComponentC", "Injection"]
+- ["14DITranquillity9ComponentC", "Int"]
+- ["14DITranquillity9ComponentC", "MethodSignature"]
+- ["14DITranquillity9ComponentC", "UniqueKey"]
+- ["14DITranquillity9ComponentC", "append"]
+- ["14DITranquillity9ComponentC", "bundle"]
+- ["14DITranquillity9ComponentC", "deinit"]
+- !private ["14DITranquillity9ComponentC", "getBundle"]
+- ["14DITranquillity9ComponentC", "hashValue"]
+- ["14DITranquillity9ComponentC", "info"]
+- ["14DITranquillity9ComponentC", "init"]
+- ["14DITranquillity9ComponentC", "initial"]
+- ["14DITranquillity9ComponentC", "injections"]
+- ["14DITranquillity9ComponentC", "isDefault"]
+- ["14DITranquillity9ComponentC", "lifeTime"]
+- ["14DITranquillity9ComponentC", "postInit"]
+- ["14DITranquillity9ComponentC", "set"]
+- ["14DITranquillity18ComponentContainerC", "Component"]
+- ["14DITranquillity18ComponentContainerC", "Dictionary"]
+- ["14DITranquillity18ComponentContainerC", "PThreadMutex"]
+- ["14DITranquillity18ComponentContainerC", "Set"]
+- ["14DITranquillity18ComponentContainerC", "ShortTypeKey"]
+- ["14DITranquillity18ComponentContainerC", "TypeKey"]
+- ["14DITranquillity18ComponentContainerC", "components"]
+- ["14DITranquillity18ComponentContainerC", "deinit"]
+- ["14DITranquillity18ComponentContainerC", "init"]
+- ["14DITranquillity18ComponentContainerC", "insert"]
+- !private ["14DITranquillity18ComponentContainerC", "manyMap"]
+- !private ["14DITranquillity18ComponentContainerC", "map"]
+- !private ["14DITranquillity18ComponentContainerC", "mutex"]
+- ["14DITranquillity18ComponentContainerC", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insert"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "values"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "insert"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "values"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insert"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- !private ["s23CustomStringConvertibleP", "values"]
+- !private ["14DITranquillity15DIComponentInfoV", "deinit"]
+- !private ["14DITranquillity15DIComponentInfoV", "hashValue"]
+- !private ["14DITranquillity15DIComponentInfoV", "type"]
+- ["14DITranquillity10DILifeTimeO", "default"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "insert"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "values"]
+- ["s10DictionaryV", "init"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s10DictionaryV", "values"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "insert"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "values"]
+- ["s9EquatableP", "DILifeTime"]
+- !private ["s9EquatableP", "Injection"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "bundle"]
+- ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "getBundle"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "info"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "initial"]
+- !private ["s9EquatableP", "injections"]
+- !private ["s9EquatableP", "insert"]
+- !private ["s9EquatableP", "type"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "insert"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "values"]
+- ["s8HashableP", "DILifeTime"]
+- !private ["s8HashableP", "Injection"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "bundle"]
+- ["s8HashableP", "default"]
+- !private ["s8HashableP", "getBundle"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "info"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "initial"]
+- !private ["s8HashableP", "injections"]
+- !private ["s8HashableP", "insert"]
+- !private ["s8HashableP", "type"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "flatMap"]
+- ["14DITranquillity12PThreadMutexC", "init"]
+- !private ["14DITranquillity12PThreadMutexC", "sync"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "flatMap"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "insert"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s8SequenceP", "values"]
+- !private ["s3SetV", "insert"]
+- !private ["s10SetAlgebraP", "insert"]
+- ["14DITranquillity12ShortTypeKeyV", "deinit"]
+- !private ["14DITranquillity12ShortTypeKeyV", "init"]
+- ["14DITranquillity7TypeKeyV", "deinit"]
+- !private ["14DITranquillity7TypeKeyV", "type"]
+- !private ["s10DictionaryV6ValuesV", "flatMap"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s23_BidirectionalIndexableP", "append"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s10_IndexableP", "append"]
+- !private ["s10_IndexableP", "flatMap"]
+- ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "insert"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s10_IndexableP", "values"]
+- !private ["s14_IndexableBaseP", "append"]
+- !private ["s14_IndexableBaseP", "flatMap"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "insert"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["s14_IndexableBaseP", "values"]
+- !private ["s17_MutableIndexableP", "append"]
+- !private ["s17_MutableIndexableP", "flatMap"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "insert"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "values"]
+- !private ["s22_RandomAccessIndexableP", "append"]
+- !private ["s26_RangeReplaceableIndexableP", "append"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "14DITranquillity9ComponentC"
+- "14DITranquillity18ComponentContainerC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "14DITranquillity15DIComponentInfoV"
+- "14DITranquillity10DILifeTimeO"
+- "s9DecodableP"
+- "s10DictionaryV"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s17MutableCollectionP"
+- "14DITranquillity12PThreadMutexC"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- !private "s3SetV"
+- !private "s10SetAlgebraP"
+- "14DITranquillity12ShortTypeKeyV"
+- "14DITranquillity7TypeKeyV"
+- !private "s10DictionaryV6ValuesV"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- !private "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Target Support Files/DITranquillity/DITranquillity-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/DITranquillity/Sources/Storyboard/iOS-tvOS/DIStoryboardBase.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/DITranquillity/Sources/DITranquillity.h"
+- "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/build/Pods.build/Debug-iphoneos/DITranquillity.build/unextended-module.modulemap"
+interface-hash: "3bde257caf240b57ba4a4431bddba97e"

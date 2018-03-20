@@ -1,0 +1,111 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PThreadMutex"
+provides-nominal:
+- "14DITranquillity12PThreadMutexC"
+provides-member:
+- ["14DITranquillity12PThreadMutexC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- !private "FloatLiteralType"
+- !private "Int32"
+- !private "IntegerLiteralType"
+- !private "PTHREAD_MUTEX_NORMAL"
+- !private "PTHREAD_MUTEX_RECURSIVE"
+- "PThreadMutex"
+- !private "StringLiteralType"
+- !private "preconditionFailure"
+- !private "pthread_mutex_destroy"
+- !private "pthread_mutex_init"
+- !private "pthread_mutex_lock"
+- "pthread_mutex_t"
+- !private "pthread_mutex_unlock"
+- !private "pthread_mutexattr_init"
+- !private "pthread_mutexattr_settype"
+- !private "pthread_mutexattr_t"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["14DITranquillity12PThreadMutexC", "Int32"]
+- !private ["14DITranquillity12PThreadMutexC", "PTHREAD_MUTEX_NORMAL"]
+- !private ["14DITranquillity12PThreadMutexC", "PTHREAD_MUTEX_RECURSIVE"]
+- ["14DITranquillity12PThreadMutexC", "deinit"]
+- ["14DITranquillity12PThreadMutexC", "init"]
+- !private ["14DITranquillity12PThreadMutexC", "preconditionFailure"]
+- !private ["14DITranquillity12PThreadMutexC", "pthread_mutex_destroy"]
+- !private ["14DITranquillity12PThreadMutexC", "pthread_mutex_init"]
+- !private ["14DITranquillity12PThreadMutexC", "pthread_mutex_lock"]
+- ["14DITranquillity12PThreadMutexC", "pthread_mutex_t"]
+- !private ["14DITranquillity12PThreadMutexC", "pthread_mutex_unlock"]
+- !private ["14DITranquillity12PThreadMutexC", "pthread_mutexattr_init"]
+- !private ["14DITranquillity12PThreadMutexC", "pthread_mutexattr_settype"]
+- !private ["14DITranquillity12PThreadMutexC", "pthread_mutexattr_t"]
+- ["14DITranquillity12PThreadMutexC", "sync"]
+- !private ["14DITranquillity12PThreadMutexC", "unsafeMutex"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["SC23_opaque_pthread_mutex_tV", "init"]
+- !private ["SC27_opaque_pthread_mutexattr_tV", "init"]
+depends-nominal:
+- !private "Sb"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- "14DITranquillity12PThreadMutexC"
+- !private "s12StaticStringV"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+- "SC23_opaque_pthread_mutex_tV"
+- !private "SC27_opaque_pthread_mutexattr_tV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/Pods/Target Support Files/DITranquillity/DITranquillity-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/Pods/DITranquillity/Sources/Storyboard/iOS-tvOS/DIStoryboardBase.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/Pods/DITranquillity/Sources/DITranquillity.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Pods.build/Debug-iphonesimulator/DITranquillity.build/unextended-module.modulemap"
+interface-hash: "259be6e37b6f4472cc4bfd5de4fc9d0b"

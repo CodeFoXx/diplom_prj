@@ -1,0 +1,80 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "IsTag"
+- "InternalByTag"
+- "IsMany"
+- "InternalByMany"
+provides-nominal:
+- "14DITranquillity5IsTagP"
+- "14DITranquillity13InternalByTagC"
+- "14DITranquillity6IsManyP"
+- "14DITranquillity14InternalByManyC"
+provides-member:
+- ["14DITranquillity5IsTagP", ""]
+- ["14DITranquillity13InternalByTagC", ""]
+- ["14DITranquillity6IsManyP", ""]
+- ["14DITranquillity14InternalByManyC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyObject"
+- "AssignmentPrecedence"
+- "DIAType"
+- "DITag"
+- "InternalByMany"
+- "InternalByTag"
+- "IsMany"
+- "IsTag"
+depends-member:
+- ["14DITranquillity14InternalByManyC", "DIAType"]
+- ["14DITranquillity14InternalByManyC", "T"]
+- ["14DITranquillity14InternalByManyC", "_objects"]
+- ["14DITranquillity14InternalByManyC", "deinit"]
+- ["14DITranquillity14InternalByManyC", "init"]
+- ["14DITranquillity14InternalByManyC", "type"]
+- ["14DITranquillity13InternalByTagC", "DIAType"]
+- ["14DITranquillity13InternalByTagC", "DITag"]
+- ["14DITranquillity13InternalByTagC", "T"]
+- !private ["14DITranquillity13InternalByTagC", "Tag"]
+- ["14DITranquillity13InternalByTagC", "_object"]
+- ["14DITranquillity13InternalByTagC", "deinit"]
+- ["14DITranquillity13InternalByTagC", "init"]
+- ["14DITranquillity13InternalByTagC", "tag"]
+- ["14DITranquillity13InternalByTagC", "type"]
+- ["14DITranquillity6IsManyP", "DIAType"]
+- !private ["14DITranquillity6IsManyP", "T"]
+- !private ["14DITranquillity6IsManyP", "_objects"]
+- ["14DITranquillity6IsManyP", "type"]
+- ["14DITranquillity6IsManyP", ""]
+- ["14DITranquillity5IsTagP", "DIAType"]
+- ["14DITranquillity5IsTagP", "DITag"]
+- !private ["14DITranquillity5IsTagP", "T"]
+- !private ["14DITranquillity5IsTagP", "Tag"]
+- !private ["14DITranquillity5IsTagP", "_object"]
+- ["14DITranquillity5IsTagP", "tag"]
+- ["14DITranquillity5IsTagP", "type"]
+- ["14DITranquillity5IsTagP", ""]
+depends-nominal:
+- "14DITranquillity14InternalByManyC"
+- "14DITranquillity13InternalByTagC"
+- "14DITranquillity6IsManyP"
+- "14DITranquillity5IsTagP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/Pods/Target Support Files/DITranquillity/DITranquillity-umbrella.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/Pods/DITranquillity/Sources/Storyboard/iOS-tvOS/DIStoryboardBase.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/Pods/DITranquillity/Sources/DITranquillity.h"
+- "/Users/Polina/XcodeApp/CoreML_test_10.03/CoreML_test/build/Pods.build/Debug-iphonesimulator/DITranquillity.build/unextended-module.modulemap"
+interface-hash: "832bd1c82ba2351da9b9a2fe84c64a64"

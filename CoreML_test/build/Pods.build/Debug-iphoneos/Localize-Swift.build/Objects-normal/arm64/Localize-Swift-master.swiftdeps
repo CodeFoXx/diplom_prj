@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "2349e1431e3da53cd990b1b47a5d0d75"
+build_time: [1521480004, 975738000]
+inputs:
+  "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Localize-Swift/Sources/Localize.swift": [1520874164, 0]
+  "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Localize-Swift/Sources/String+LocalizeBundle.swift": [1520874164, 0]
+  "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Localize-Swift/Sources/String+LocalizedBundleTableName.swift": [1520874164, 0]
+  "/Users/Polina/XcodeApp/CoreML_new/CoreML_test/Pods/Localize-Swift/Sources/String+LocalizeTableName.swift": [1520874164, 0]
