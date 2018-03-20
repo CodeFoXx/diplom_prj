@@ -7,17 +7,22 @@
 //
 
 import UIKit
+import Foundation
 
-import UIKit
+let EN_RU = "en-ru"
+let RU_EN = "ru-en"
 
 class TranslationViewController: UIViewController, UITextViewDelegate{
     
     @IBOutlet weak var sourceTextView: UITextView!
     @IBOutlet weak var translatedTextView: UITextView!
+    @IBOutlet weak var yandexRequirmentTextView: UITextView!
+    @IBOutlet weak var sourceLangButton: UIButton!
+    @IBOutlet weak var translatedLangButton: UIButton!
     
     var sourceTextPlaceholder: UILabel!
     var translatedTextPlaceholder: UILabel!
-    
+    var languageDict: Bool!
     
     
     var presenter: TranslationPresenter!
@@ -25,9 +30,15 @@ class TranslationViewController: UIViewController, UITextViewDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        languageDict = true
         setPlaceholder()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.navigationBar.isHidden = true
+    }
+    
+   
     
     func setPlaceholder(){
         self.sourceTextView.delegate = self
@@ -62,6 +73,11 @@ class TranslationViewController: UIViewController, UITextViewDelegate{
     
     
     @IBAction func languageReplacer(_ sender: Any) {
+        let tmp = sourceLangButton.currentTitle
+        sourceLangButton.setTitle(translatedLangButton.currentTitle, for: [])
+        translatedLangButton.setTitle(tmp, for: [])
+        languageDict = !languageDict
+        
     }
     
     @IBAction func translationLanguageChanger(_ sender: Any) {
@@ -79,19 +95,34 @@ class TranslationViewController: UIViewController, UITextViewDelegate{
     }
     
     @IBAction func translateButton(_ sender: Any) {
-        presenter.translationRequest(language: "en-ru", text: sourceTextView.text)
+        if languageDict == true{
+            presenter.translationRequest(language: RU_EN, text: sourceTextView.text)
+        }
+        else{
+            presenter.translationRequest(language: EN_RU, text: sourceTextView.text)
+        }
+        
     }
     
     @IBAction func imagePickerButton(_ sender: Any) {
+        presenter.navigateToTextDetectionView()
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         sourceTextView.resignFirstResponder()
         translatedTextView.resignFirstResponder()
     }
+    
+        
 }
 
 extension TranslationViewController: TranslationView {
+        
+    func setTranslatedText(text: [String]) {
+        translatedTextPlaceholder.isHidden = true
+        translatedTextView.text = String(text.flatMap{ String($0)})
+    }
+    
     
 }
 

@@ -111,4 +111,11 @@ class TranslationProvider {
         
     }
     
+    func mappingObjects <Obj> (jsonData: Data, toStruct: Obj.Type) -> Decodable where Obj: Decodable {
+        let decoder = JSONDecoder()
+        decoder.dateDecodingStrategy = .secondsSince1970
+        let result = try! decoder.decode(toStruct, from: jsonData)
+        return result
+    }
+    
 }

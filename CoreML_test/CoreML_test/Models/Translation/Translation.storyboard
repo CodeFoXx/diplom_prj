@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NUM-hL-OIs">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13770" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NUM-hL-OIs">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13770"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -25,12 +25,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ZNZ-CY-2qi">
-                                <rect key="frame" x="91" y="30" width="194" height="30"/>
+                                <rect key="frame" x="82" y="30" width="212" height="30"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S5Q-2X-nz6">
-                                        <rect key="frame" x="0.0" y="0.0" width="81" height="30"/>
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S5Q-2X-nz6">
+                                        <rect key="frame" x="0.0" y="0.0" width="90" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="90" id="8lB-w5-yQA"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
-                                        <state key="normal" title="Language 1 ">
+                                        <state key="normal" title="Russian">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -38,7 +41,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pjr-wB-1ZY">
-                                        <rect key="frame" x="89" y="0.0" width="16" height="30"/>
+                                        <rect key="frame" x="98" y="0.0" width="16" height="30"/>
                                         <state key="normal" image="transfer_black">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -46,10 +49,13 @@
                                             <action selector="languageReplacer:" destination="NUM-hL-OIs" eventType="touchUpInside" id="VKO-xr-Ouw"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fkj-78-dzQ">
-                                        <rect key="frame" x="113" y="0.0" width="81" height="30"/>
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fkj-78-dzQ">
+                                        <rect key="frame" x="122" y="0.0" width="90" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="90" id="phy-Gp-Vbj"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
-                                        <state key="normal" title="Language 1 ">
+                                        <state key="normal" title="English">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -121,20 +127,33 @@
                                             <action selector="shareButton:" destination="NUM-hL-OIs" eventType="touchUpInside" id="wU5-jR-vSY"/>
                                         </connections>
                                     </button>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Kdb-AN-0Po">
-                                        <rect key="frame" x="5" y="152" width="319" height="367"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kdb-AN-0Po">
+                                        <rect key="frame" x="5" y="152" width="319" height="333"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Переведено сервисом «Яндекс.Переводчик»  http://translate.yandex.ru/" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="Xir-xq-RdI">
+                                        <rect key="frame" x="10" y="495" width="341" height="46"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="46" id="zRx-yT-Rx3"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <dataDetectorType key="dataDetectorTypes" link="YES"/>
                                     </textView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="s9z-Gk-ISl" secondAttribute="trailing" constant="9" id="0m7-Fd-88D"/>
+                                    <constraint firstItem="Xir-xq-RdI" firstAttribute="leading" secondItem="Zy0-eu-sR5" secondAttribute="leading" constant="10" id="1Nt-Bt-Idi"/>
                                     <constraint firstAttribute="trailing" secondItem="Bib-a1-m8Z" secondAttribute="trailing" constant="10" id="3Ba-EP-mL3"/>
                                     <constraint firstItem="fXj-ff-U8o" firstAttribute="leading" secondItem="Kdb-AN-0Po" secondAttribute="trailing" constant="5" id="4Mq-va-9mB"/>
+                                    <constraint firstAttribute="bottom" secondItem="Xir-xq-RdI" secondAttribute="bottom" constant="5" id="4UH-wj-9GI"/>
+                                    <constraint firstItem="Xir-xq-RdI" firstAttribute="top" secondItem="Kdb-AN-0Po" secondAttribute="bottom" constant="10" id="5ta-3O-pma"/>
+                                    <constraint firstAttribute="trailing" secondItem="Xir-xq-RdI" secondAttribute="trailing" constant="10" id="BhQ-OZ-WQI"/>
                                     <constraint firstItem="Bib-a1-m8Z" firstAttribute="top" secondItem="uEi-xT-tQH" secondAttribute="bottom" constant="10" id="DqN-W9-4ZM"/>
-                                    <constraint firstAttribute="bottom" secondItem="Kdb-AN-0Po" secondAttribute="bottom" constant="27" id="EkS-d6-xN0"/>
                                     <constraint firstItem="lhr-Kz-WuB" firstAttribute="leading" secondItem="s9z-Gk-ISl" secondAttribute="leading" id="Ghw-OW-zDR"/>
                                     <constraint firstItem="Kdb-AN-0Po" firstAttribute="leading" secondItem="Zy0-eu-sR5" secondAttribute="leading" constant="5" id="Ix0-av-yZY"/>
                                     <constraint firstItem="Bib-a1-m8Z" firstAttribute="leading" secondItem="Zy0-eu-sR5" secondAttribute="leading" constant="10" id="KD2-o6-YNn"/>
@@ -197,8 +216,11 @@
                         <viewLayoutGuide key="safeArea" id="6G9-lq-B8u"/>
                     </view>
                     <connections>
+                        <outlet property="sourceLangButton" destination="S5Q-2X-nz6" id="feX-4w-geJ"/>
                         <outlet property="sourceTextView" destination="uEi-xT-tQH" id="LLJ-5W-aK6"/>
+                        <outlet property="translatedLangButton" destination="Fkj-78-dzQ" id="3ei-qr-Nrh"/>
                         <outlet property="translatedTextView" destination="Kdb-AN-0Po" id="wMw-m8-Qw7"/>
+                        <outlet property="yandexRequirmentTextView" destination="Xir-xq-RdI" id="hA5-TD-884"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cml-5E-ecu" userLabel="First Responder" sceneMemberID="firstResponder"/>

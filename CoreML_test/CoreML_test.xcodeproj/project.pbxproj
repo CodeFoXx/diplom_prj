@@ -15,7 +15,7 @@
 		36E6C4F0205D8E3400C69599 /* HTTPURLResponseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6C4EF205D8E3400C69599 /* HTTPURLResponseExtension.swift */; };
 		36E6C4F4205D8EB200C69599 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6C4F3205D8EB200C69599 /* ApiError.swift */; };
 		36E6C4F8205D916C00C69599 /* TranslationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6C4F7205D916C00C69599 /* TranslationService.swift */; };
-		36E6C4FA205D942800C69599 /* TranslationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6C4F9205D942800C69599 /* TranslationProvider.swift */; };
+		36E6C4FA205D942800C69599 /*  TranslationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6C4F9205D942800C69599 /*  TranslationProvider.swift */; };
 		494E2B113DEFEC951EE482D1 /* Pods_CoreML_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93302F7B3797C42FC01A271F /* Pods_CoreML_test.framework */; };
 		53C27E88D2CB0D1461425E1F /* Pods_CoreML_testUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E3C19AA87A11DECFD944F1 /* Pods_CoreML_testUITests.framework */; };
 		F7039E3C2032ED2B00DE63E8 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F7039E3A2032ECDA00DE63E8 /* Inceptionv3.mlmodel */; };
@@ -26,6 +26,13 @@
 		F73A0C752032D9FA004F7473 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73A0C732032D9FA004F7473 /* LaunchScreen.storyboard */; };
 		F73A0C802032D9FA004F7473 /* CoreML_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73A0C7F2032D9FA004F7473 /* CoreML_testTests.swift */; };
 		F73A0C8B2032D9FA004F7473 /* CoreML_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73A0C8A2032D9FA004F7473 /* CoreML_testUITests.swift */; };
+		F7690A3C2060C52D00F4314B /* TranslatedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7690A3B2060C52D00F4314B /* TranslatedData.swift */; };
+		F7690A442060D59000F4314B /* TextDetection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7690A3E2060D59000F4314B /* TextDetection.storyboard */; };
+		F7690A452060D59000F4314B /* TextDetectionContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7690A3F2060D59000F4314B /* TextDetectionContract.swift */; };
+		F7690A462060D59000F4314B /* TextDetectionDIPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7690A402060D59000F4314B /* TextDetectionDIPart.swift */; };
+		F7690A472060D59000F4314B /* TextDetectionPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7690A412060D59000F4314B /* TextDetectionPresenterImpl.swift */; };
+		F7690A482060D59000F4314B /* TextDetectionRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7690A422060D59000F4314B /* TextDetectionRouterImpl.swift */; };
+		F7690A492060D59000F4314B /* TextDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7690A432060D59000F4314B /* TextDetectionViewController.swift */; };
 		F7814E30205FB04C00A0C95F /* Translation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7814E2A205FB04C00A0C95F /* Translation.storyboard */; };
 		F7814E31205FB04C00A0C95F /* TranslationContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7814E2B205FB04C00A0C95F /* TranslationContract.swift */; };
 		F7814E32205FB04C00A0C95F /* TranslationDIPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7814E2C205FB04C00A0C95F /* TranslationDIPart.swift */; };
@@ -93,7 +100,7 @@
 		36E6C4EF205D8E3400C69599 /* HTTPURLResponseExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPURLResponseExtension.swift; sourceTree = "<group>"; };
 		36E6C4F3205D8EB200C69599 /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
 		36E6C4F7205D916C00C69599 /* TranslationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationService.swift; sourceTree = "<group>"; };
-		36E6C4F9205D942800C69599 /* TranslationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationProvider.swift; sourceTree = "<group>"; };
+		36E6C4F9205D942800C69599 /*  TranslationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " TranslationProvider.swift"; sourceTree = "<group>"; };
 		7842F74F8C30DED36AB5D089 /* Pods-CoreML_testUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreML_testUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreML_testUITests/Pods-CoreML_testUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		93302F7B3797C42FC01A271F /* Pods_CoreML_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreML_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C3759A736C347ACE22ABC2 /* Pods-CoreML_testUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreML_testUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreML_testUITests/Pods-CoreML_testUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,6 +123,13 @@
 		F73A0C862032D9FA004F7473 /* CoreML_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreML_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73A0C8A2032D9FA004F7473 /* CoreML_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreML_testUITests.swift; sourceTree = "<group>"; };
 		F73A0C8C2032D9FA004F7473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7690A3B2060C52D00F4314B /* TranslatedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslatedData.swift; sourceTree = "<group>"; };
+		F7690A3E2060D59000F4314B /* TextDetection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TextDetection.storyboard; sourceTree = "<group>"; };
+		F7690A3F2060D59000F4314B /* TextDetectionContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDetectionContract.swift; sourceTree = "<group>"; };
+		F7690A402060D59000F4314B /* TextDetectionDIPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDetectionDIPart.swift; sourceTree = "<group>"; };
+		F7690A412060D59000F4314B /* TextDetectionPresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDetectionPresenterImpl.swift; sourceTree = "<group>"; };
+		F7690A422060D59000F4314B /* TextDetectionRouterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDetectionRouterImpl.swift; sourceTree = "<group>"; };
+		F7690A432060D59000F4314B /* TextDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDetectionViewController.swift; sourceTree = "<group>"; };
 		F7814E2A205FB04C00A0C95F /* Translation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Translation.storyboard; sourceTree = "<group>"; };
 		F7814E2B205FB04C00A0C95F /* TranslationContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationContract.swift; sourceTree = "<group>"; };
 		F7814E2C205FB04C00A0C95F /* TranslationDIPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationDIPart.swift; sourceTree = "<group>"; };
@@ -204,17 +218,9 @@
 		36E6C4F1205D8E9A00C69599 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				36E6C4F2205D8EA400C69599 /* Madels */,
+				F7690A3A2060C4DB00F4314B /* Models */,
 			);
 			path = Data;
-			sourceTree = "<group>";
-		};
-		36E6C4F2205D8EA400C69599 /* Madels */ = {
-			isa = PBXGroup;
-			children = (
-				36E6C4F3205D8EB200C69599 /* ApiError.swift */,
-			);
-			path = Madels;
 			sourceTree = "<group>";
 		};
 		36E6C4F5205D911200C69599 /* Services */ = {
@@ -229,7 +235,7 @@
 		36E6C4F6205D912500C69599 /* Providers */ = {
 			isa = PBXGroup;
 			children = (
-				36E6C4F9205D942800C69599 /* TranslationProvider.swift */,
+				36E6C4F9205D942800C69599 /*  TranslationProvider.swift */,
 			);
 			path = Providers;
 			sourceTree = "<group>";
@@ -260,6 +266,7 @@
 		F7039E392032DB6C00DE63E8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F7690A3D2060D53700F4314B /* TextDetection */,
 				F7814E29205FB02B00A0C95F /* Translation */,
 				F7ABA0242045402E00106585 /* Map */,
 				F7C2F2F2203A852500F3643E /* OCR */,
@@ -339,6 +346,29 @@
 				F73A0C8C2032D9FA004F7473 /* Info.plist */,
 			);
 			path = CoreML_testUITests;
+			sourceTree = "<group>";
+		};
+		F7690A3A2060C4DB00F4314B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				36E6C4F3205D8EB200C69599 /* ApiError.swift */,
+				F7690A3B2060C52D00F4314B /* TranslatedData.swift */,
+			);
+			name = Models;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		F7690A3D2060D53700F4314B /* TextDetection */ = {
+			isa = PBXGroup;
+			children = (
+				F7690A3E2060D59000F4314B /* TextDetection.storyboard */,
+				F7690A3F2060D59000F4314B /* TextDetectionContract.swift */,
+				F7690A402060D59000F4314B /* TextDetectionDIPart.swift */,
+				F7690A412060D59000F4314B /* TextDetectionPresenterImpl.swift */,
+				F7690A422060D59000F4314B /* TextDetectionRouterImpl.swift */,
+				F7690A432060D59000F4314B /* TextDetectionViewController.swift */,
+			);
+			path = TextDetection;
 			sourceTree = "<group>";
 		};
 		F7814E29205FB02B00A0C95F /* Translation */ = {
@@ -592,6 +622,7 @@
 				F7ABA044204540F100106585 /* Map.storyboard in Resources */,
 				F7C2F31D203A860A00F3643E /* OCR.storyboard in Resources */,
 				F7C2F311203A85CC00F3643E /* Main.storyboard in Resources */,
+				F7690A442060D59000F4314B /* TextDetection.storyboard in Resources */,
 				F7C2F32A203A989A00F3643E /* Main.storyboard in Resources */,
 				F73A0C722032D9FA004F7473 /* Assets.xcassets in Resources */,
 				F70BD0CE204D00F100645D30 /* .gitignore in Resources */,
@@ -799,16 +830,21 @@
 				F7ABA0462045410500106585 /* ArtworkView.swift in Sources */,
 				F7C2F320203A860A00F3643E /* OCRPresenterImpl.swift in Sources */,
 				F7814E34205FB04C00A0C95F /* TranslationRouterImpl.swift in Sources */,
+				F7690A492060D59000F4314B /* TextDetectionViewController.swift in Sources */,
 				F7C2F312203A85CC00F3643E /* MainContract.swift in Sources */,
 				F7C2F316203A85CC00F3643E /* MainViewController.swift in Sources */,
+				F7690A482060D59000F4314B /* TextDetectionRouterImpl.swift in Sources */,
 				F7C2F314203A85CC00F3643E /* MainPresenterImpl.swift in Sources */,
 				F7C2F315203A85CC00F3643E /* MainRouterImpl.swift in Sources */,
 				369BE4312054070300513157 /* AlertControllerFunctions.swift in Sources */,
 				F7ABA0492045411600106585 /* Artwork.swift in Sources */,
 				F7814E35205FB04C00A0C95F /* TranslationViewController.swift in Sources */,
-				36E6C4FA205D942800C69599 /* TranslationProvider.swift in Sources */,
+				36E6C4FA205D942800C69599 /*  TranslationProvider.swift in Sources */,
 				369BE42E2054059800513157 /* Alphanum_28x28.mlmodel in Sources */,
+				F7690A452060D59000F4314B /* TextDetectionContract.swift in Sources */,
 				36E6C4EE205D8DF200C69599 /* TranslationApiError.swift in Sources */,
+				F7690A3C2060C52D00F4314B /* TranslatedData.swift in Sources */,
+				F7690A472060D59000F4314B /* TextDetectionPresenterImpl.swift in Sources */,
 				F7C2F328203A90B900F3643E /* NetworkDIPart.swift in Sources */,
 				F7C2F308203A85BA00F3643E /* TextDetectorPresenterImpl.swift in Sources */,
 				F7814E31205FB04C00A0C95F /* TranslationContract.swift in Sources */,
@@ -828,6 +864,7 @@
 				F7C2F31E203A860A00F3643E /* OCRContract.swift in Sources */,
 				F7814E32205FB04C00A0C95F /* TranslationDIPart.swift in Sources */,
 				F7C2F322203A860A00F3643E /* OCRViewController.swift in Sources */,
+				F7690A462060D59000F4314B /* TextDetectionDIPart.swift in Sources */,
 				369BE43420540E3400513157 /* ImageUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

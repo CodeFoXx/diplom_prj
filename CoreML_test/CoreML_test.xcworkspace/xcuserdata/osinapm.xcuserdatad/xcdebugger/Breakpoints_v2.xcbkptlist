@@ -57,152 +57,8 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "CoreML_test/Models/Translation/TranslationPresenterImpl.swift"
-            timestampString = "543147948.9598449"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "translationRequest(language:text:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "CoreML_test.TranslationPresenterImpl.translationRequest(language: Swift.String, text: Swift.String) -&gt; ()"
-                  moduleName = "CoreML_test"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/osinapm/Documents/CoreML_new/CoreML_test/CoreML_test/Models/Translation/TranslationPresenterImpl.swift"
-                  timestampString = "543147949.729986"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "54"
-                  endingLineNumber = "54"
-                  offsetFromSymbolStart = "1651">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__ObjC.HTTPURLResponse, Any) -&gt; () in CoreML_test.TranslationPresenterImpl.translationRequest(language: Swift.String, text: Swift.String) -&gt; ()"
-                  moduleName = "CoreML_test"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/osinapm/Documents/CoreML_new/CoreML_test/CoreML_test/Models/Translation/TranslationPresenterImpl.swift"
-                  timestampString = "543147949.731434"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "56"
-                  endingLineNumber = "56"
-                  offsetFromSymbolStart = "27">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CoreML_test/Models/Translation/TranslationPresenterImpl.swift"
-            timestampString = "543147948.959904"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
-            landmarkName = "translationRequest(language:text:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CoreML_test/Models/Translation/TranslationPresenterImpl.swift"
-            timestampString = "543147948.959951"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
-            landmarkName = "translationRequest(language:text:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CoreML_test/Models/Translation/TranslationPresenterImpl.swift"
-            timestampString = "543147948.959995"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
-            landmarkName = "translationRequest(language:text:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "CoreML_test/Services/Providers/TranslationProvider.swift"
-            timestampString = "543147974.915743"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
-            landmarkName = "requestJSON(path:method:parameters:encoding:headers:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "CoreML_test.TranslationProvider.requestJSON(path: Swift.String, method: Alamofire.HTTPMethod, parameters: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, encoding: Alamofire.ParameterEncoding, headers: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;) -&gt; RxSwift.Observable&lt;(__ObjC.HTTPURLResponse, Any)&gt;"
-                  moduleName = "CoreML_test"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/osinapm/Documents/CoreML_new/CoreML_test/CoreML_test/Services/Providers/TranslationProvider.swift"
-                  timestampString = "543147975.12441"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "82"
-                  endingLineNumber = "82"
-                  offsetFromSymbolStart = "706">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__ObjC.HTTPURLResponse, Any) -&gt; RxSwift.Observable&lt;(__ObjC.HTTPURLResponse, Any)&gt; in CoreML_test.TranslationProvider.requestJSON(path: Swift.String, method: Alamofire.HTTPMethod, parameters: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, encoding: Alamofire.ParameterEncoding, headers: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;) -&gt; RxSwift.Observable&lt;(__ObjC.HTTPURLResponse, Any)&gt;"
-                  moduleName = "CoreML_test"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/osinapm/Documents/CoreML_new/CoreML_test/CoreML_test/Services/Providers/TranslationProvider.swift"
-                  timestampString = "543147975.125708"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "84"
-                  endingLineNumber = "84"
-                  offsetFromSymbolStart = "24">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CoreML_test/Services/Providers/TranslationProvider.swift"
-            timestampString = "543147980.2114331"
+            timestampString = "543211330.6587189"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "84"
@@ -218,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreML_test/Services/Providers/TranslationProvider.swift"
-            timestampString = "543148014.4110399"
+            timestampString = "543211330.658783"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "108"
@@ -234,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreML_test/Services/Providers/TranslationProvider.swift"
-            timestampString = "543148015.947113"
+            timestampString = "543211330.658826"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "105"
@@ -250,7 +106,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreML_test/Services/Providers/TranslationProvider.swift"
-            timestampString = "543148017.395043"
+            timestampString = "543211330.658867"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "100"
@@ -266,7 +122,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreML_test/Services/Providers/TranslationProvider.swift"
-            timestampString = "543148020.92304"
+            timestampString = "543211330.658906"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "87"

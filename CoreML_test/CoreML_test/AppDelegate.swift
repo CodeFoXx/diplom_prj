@@ -64,6 +64,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         container.append(part: MapDIPart.self)
         container.append(part: OCRDIPart.self)
         container.append(part: TranslationDIPart.self)
+        container.append(part: TextDetectionDIPart.self)
         if !container.validate(){
             fatalError("DI fatal error")
         }

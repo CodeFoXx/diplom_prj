@@ -9,7 +9,7 @@
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Allow</string>
 	<key>NSCameraUsageDescription</key>
-	<string>AI</string>
+	<string>for detetion and recognition text</string>
 	<key>LSApplicationCategoryType</key>
 	<string></string>
 	<key>CFBundleDevelopmentRegion</key>

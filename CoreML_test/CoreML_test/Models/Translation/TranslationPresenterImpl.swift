@@ -41,22 +41,30 @@ class TranslationPresenterImpl: TranslationPresenter {
             }))
     }
     
+    func navigateToTextDetectionView(){
+        router.navigateToTextDetectionView()
+    }
+    
     
     func translationRequest(language: String, text: String){
         var api = userDefaults.string(forKey: yandexApiDefaultsKey)
+        var transalatedData: TranslatedData!
         let parameters: Parameters = [
-            "key": api!,
+            "key": "trnsl.1.1.20170803T140152Z.ff3df58b936ba3e4.cb34d86877638b493fd3388f2842d20c61948c58",
             "text": text,
             "lang": language
         ]
-        
-        disposeBag.insert(translationService.requestJSON(path: appendingPath, method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: nil)
+        print(parameters)
+        disposeBag.insert(translationService.requestJSON(path: appendingPath, method: .post, parameters: parameters, encoding: URLEncoding.queryString, headers: nil)
             .subscribe(onNext: { [weak self]
                 (r, json) in
                 print(json)
                 if let objectsData = try? JSONSerialization.data(withJSONObject: json, options: JSONSerialization.WritingOptions(rawValue: 0)){
                     var objectString = String(data: objectsData, encoding: .utf8)
-                    print(objectString)
+                    transalatedData = self?.translationService.mappingObjects(jsonData: objectsData, toStruct: TranslatedData.self) as! TranslatedData
+                    print(transalatedData.text)
+                    self?.view.setTranslatedText(text: transalatedData.text)
+                    
                 }
                 }, onError: {
                     print($0)

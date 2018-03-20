@@ -9,13 +9,15 @@
 import Foundation
 
 protocol TranslationView: class {
-    
+    func setTranslatedText(text: [String])
 }
 
 protocol TranslationPresenter {
     func translationRequest(language: String, text: String)
+    func navigateToTextDetectionView()
 }
 
 protocol TranslationRouter {
+    func navigateToTextDetectionView()
 
 }

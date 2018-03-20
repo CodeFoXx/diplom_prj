@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13770" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FrM-Ks-Zy0">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13770"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeueLights.ttc">
+            <string>HelveticaNeue-Light</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Text Detection View Controller-->
+        <scene sceneID="jQY-vd-fdv">
+            <objects>
+                <viewController id="FrM-Ks-Zy0" customClass="TextDetectionViewController" customModule="CoreML_test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6FD-SR-xSV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zah-rw-cfN">
+                                <rect key="frame" x="0.0" y="20" width="375" height="550"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="550" id="UBg-0j-KA9"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderUIColor">
+                                        <color key="value" red="0.40849071739999998" green="0.8062378764" blue="0.91175848250000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YDZ-bC-45V">
+                                <rect key="frame" x="10" y="590" width="355" height="62"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GXQ-SA-6zv">
+                                        <rect key="frame" x="10" y="21.5" width="335" height="20"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="GXQ-SA-6zv" firstAttribute="centerY" secondItem="YDZ-bC-45V" secondAttribute="centerY" id="Gbf-P2-TOl"/>
+                                    <constraint firstItem="GXQ-SA-6zv" firstAttribute="leading" secondItem="YDZ-bC-45V" secondAttribute="leading" constant="10" id="Vu4-0n-ZcO"/>
+                                    <constraint firstItem="GXQ-SA-6zv" firstAttribute="centerX" secondItem="YDZ-bC-45V" secondAttribute="centerX" id="mPf-oM-Xe6"/>
+                                    <constraint firstAttribute="trailing" secondItem="GXQ-SA-6zv" secondAttribute="trailing" constant="10" id="ydA-Wr-dFO"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderUIColor">
+                                        <color key="value" red="0.40849071739999998" green="0.8062378764" blue="0.91175848250000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.7491753498" green="0.87075947409999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zah-rw-cfN" firstAttribute="leading" secondItem="SzN-51-txO" secondAttribute="leading" id="Bmx-Wc-xfS"/>
+                            <constraint firstItem="SzN-51-txO" firstAttribute="trailing" secondItem="zah-rw-cfN" secondAttribute="trailing" id="NLc-ch-D9g"/>
+                            <constraint firstItem="SzN-51-txO" firstAttribute="bottom" secondItem="YDZ-bC-45V" secondAttribute="bottom" constant="15" id="Noe-LS-EFl"/>
+                            <constraint firstItem="zah-rw-cfN" firstAttribute="top" secondItem="SzN-51-txO" secondAttribute="top" id="mhc-hU-8RM"/>
+                            <constraint firstItem="SzN-51-txO" firstAttribute="trailing" secondItem="YDZ-bC-45V" secondAttribute="trailing" constant="10" id="t9v-Sw-MsV"/>
+                            <constraint firstItem="YDZ-bC-45V" firstAttribute="leading" secondItem="SzN-51-txO" secondAttribute="leading" constant="10" id="vyq-Y5-4xK"/>
+                            <constraint firstItem="YDZ-bC-45V" firstAttribute="top" secondItem="zah-rw-cfN" secondAttribute="bottom" constant="20" id="zzj-eA-zs6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="SzN-51-txO"/>
+                    </view>
+                    <connections>
+                        <outlet property="cameraImageView" destination="zah-rw-cfN" id="iJO-Nz-iw9"/>
+                        <outlet property="datectedTextLabel" destination="GXQ-SA-6zv" id="4CH-14-xXg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gCx-7V-EHe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-146.40000000000001" y="-161.46926536731635"/>
+        </scene>
+    </scenes>
+</document>
