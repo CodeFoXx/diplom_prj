@@ -14,6 +14,7 @@ let RU_EN = "ru-en"
 
 class TranslationViewController: UIViewController, UITextViewDelegate{
     
+    @IBOutlet var swipe: UISwipeGestureRecognizer!
     @IBOutlet weak var sourceTextView: UITextView!
     @IBOutlet weak var translatedTextView: UITextView!
     @IBOutlet weak var yandexRequirmentTextView: UITextView!
@@ -32,13 +33,26 @@ class TranslationViewController: UIViewController, UITextViewDelegate{
         super.viewDidLoad()
         languageDict = true
         setPlaceholder()
+        //setSwipe()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.navigationBar.isHidden = true
     }
     
-   
+    func setSwipe(){
+        let leftSwipe = UISwipeGestureRecognizer(target: self, action: Selector("handleSwipes:"))
+        leftSwipe.direction = .left
+        view.addGestureRecognizer(leftSwipe)
+    }
+    
+    func handleSwipes(sender: UISwipeGestureRecognizer){
+        
+        if (sender.direction == .left){
+            print("swipe")
+            
+        }
+    }
     
     func setPlaceholder(){
         self.sourceTextView.delegate = self
@@ -94,15 +108,7 @@ class TranslationViewController: UIViewController, UITextViewDelegate{
         translatedTextView.text = "blabla"
     }
     
-    @IBAction func translateButton(_ sender: Any) {
-        if languageDict == true{
-            presenter.translationRequest(language: RU_EN, text: sourceTextView.text)
-        }
-        else{
-            presenter.translationRequest(language: EN_RU, text: sourceTextView.text)
-        }
-        
-    }
+    
     
     @IBAction func imagePickerButton(_ sender: Any) {
         presenter.navigateToTextDetectionView()
@@ -123,6 +129,19 @@ extension TranslationViewController: TranslationView {
         translatedTextView.text = String(text.flatMap{ String($0)})
     }
     
+    func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
+        if (text == "\n"){
+            sourceTextView.resignFirstResponder()
+            if languageDict == true{
+                presenter.translationRequest(language: RU_EN, text: sourceTextView.text)
+            }
+            else{
+                presenter.translationRequest(language: EN_RU, text: sourceTextView.text)
+            }
+            return false
+        }
+        return true
+    }
     
 }
 
