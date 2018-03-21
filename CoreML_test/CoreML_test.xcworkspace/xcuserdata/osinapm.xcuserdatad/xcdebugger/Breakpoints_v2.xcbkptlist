@@ -202,12 +202,12 @@
                   moduleName = "CoreML_test"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/osinapm/diplom_prj/CoreML_test/CoreML_test/Models/OCR/OCRViewController.swift"
-                  timestampString = "543305705.309546"
+                  timestampString = "543307857.448712"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "219"
                   endingLineNumber = "219"
-                  offsetFromSymbolStart = "427">
+                  offsetFromSymbolStart = "364">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -217,12 +217,12 @@
                   moduleName = "CoreML_test"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/osinapm/diplom_prj/CoreML_test/CoreML_test/Models/OCR/OCRViewController.swift"
-                  timestampString = "543305705.31081"
+                  timestampString = "543307857.449954"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "220"
                   endingLineNumber = "220"
-                  offsetFromSymbolStart = "28">
+                  offsetFromSymbolStart = "32">
                </Location>
             </Locations>
          </BreakpointContent>

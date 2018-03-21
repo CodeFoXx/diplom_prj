@@ -18,21 +18,22 @@ class TextDetectionViewController: UIViewController {
     
     var session = AVCaptureSession()
     var request = [VNRequest]()
-   //  private var tesseract = G8Te
+    private var tesseract = G8Tesseract(language: "eng", engineMode: .tesseractOnly)
+    private var textObservation = [VNTextObservation]()
     
     var presenter: TextDetectionPresenter!
   
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        startLiveVideo()
-        startTextDetection()
+//        startLiveVideo()
+//        startTextDetection()
         
     }
     
     override func viewWillAppear(_ animated: Bool) {
-//        startLiveVideo()
-//        startTextDetection()
+        startLiveVideo()
+        startTextDetection()
     }
     
     override func viewDidDisappear(_ animated: Bool) {
@@ -79,22 +80,33 @@ class TextDetectionViewController: UIViewController {
         }
         
         let result = observation.map({$0 as? VNTextObservation})
+        textObservation = result as! [VNTextObservation]
         
         DispatchQueue.main.async() {
+            
+            guard let sublayers = self.view.layer.sublayers else {
+                return
+            }
+            for layer in sublayers[1...]{
+                if (layer as? CATextLayer) == nil {
+                    layer.removeFromSuperlayer()
+                }
+            }
+            
             self.cameraImageView.layer.sublayers?.removeSubrange(1...)
             for region in result {
                 guard let rg = region else {
                     continue
                 }
-                
+
                 self.highlightWord(box: rg)
-                
-                if let boxes = region?.characterBoxes{
-                    for characterBox in boxes{
-                        self.highlightLetters(box: characterBox)
-                    }
-                }
-                
+
+//                if let boxes = region?.characterBoxes{
+//                    for characterBox in boxes{
+//                        self.highlightLetters(box: characterBox)
+//                    }
+//                }
+
             }
         }
     }
@@ -179,23 +191,4 @@ extension TextDetectionViewController: TextDetectionView, AVCaptureVideoDataOutp
             print(error)
         }
     }
-    
-//    func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
-//        guard let pixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) else {
-//            return
-//        }
-//
-//        var requestOptions: [VNImageOption: Any] = [:]
-//        if let cameraIntrinsicData = CMGetAttachment(sampleBuffer, kCMSampleBufferAttachmentKey_CameraIntrinsicMatrix, nil) {
-//            requestOptions = [.cameraIntrinsics: cameraIntrinsicData]
-//        }
-//
-//        let imageRequestHandler = VNImageRequestHandler(cvPixelBuffer: pixelBuffer, orientation: CGImagePropertyOrientation(rawValue: 1)!, options: requestOptions)
-//        do {
-//            try imageRequestHandler.perform(request)
-//        } catch {
-//            print(error)
-//        }
-//    }
-    
 }
