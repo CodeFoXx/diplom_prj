@@ -39,6 +39,7 @@
 		F7814E33205FB04C00A0C95F /* TranslationPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7814E2D205FB04C00A0C95F /* TranslationPresenterImpl.swift */; };
 		F7814E34205FB04C00A0C95F /* TranslationRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7814E2E205FB04C00A0C95F /* TranslationRouterImpl.swift */; };
 		F7814E35205FB04C00A0C95F /* TranslationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7814E2F205FB04C00A0C95F /* TranslationViewController.swift */; };
+		F7841714206225BC0057065B /* Dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7841713206225BC0057065B /* Dummy.m */; };
 		F7ABA0212045355300106585 /* KerningLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ABA0202045355300106585 /* KerningLabel.swift */; };
 		F7ABA03F204540F100106585 /* MapRouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ABA039204540F000106585 /* MapRouterImpl.swift */; };
 		F7ABA040204540F100106585 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ABA03A204540F100106585 /* MapViewController.swift */; };
@@ -49,6 +50,7 @@
 		F7ABA0462045410500106585 /* ArtworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ABA0452045410500106585 /* ArtworkView.swift */; };
 		F7ABA0492045411600106585 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ABA0472045411600106585 /* Artwork.swift */; };
 		F7ACCC2D2045019300C388AE /* PublicArt.json in Resources */ = {isa = PBXBuildFile; fileRef = F7ACCC2C2045019200C388AE /* PublicArt.json */; };
+		F7C1B0B720621A17005D8CBA /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C1B0B820621A17005D8CBA /* TesseractOCR.framework */; };
 		F7C2F2EF203A82A800F3643E /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C2F2EE203A82A800F3643E /* PreviewView.swift */; };
 		F7C2F305203A85BA00F3643E /* TextDetector.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C2F2FF203A85BA00F3643E /* TextDetector.storyboard */; };
 		F7C2F306203A85BA00F3643E /* TextDetectorContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C2F300203A85BA00F3643E /* TextDetectorContract.swift */; };
@@ -136,6 +138,9 @@
 		F7814E2D205FB04C00A0C95F /* TranslationPresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationPresenterImpl.swift; sourceTree = "<group>"; };
 		F7814E2E205FB04C00A0C95F /* TranslationRouterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationRouterImpl.swift; sourceTree = "<group>"; };
 		F7814E2F205FB04C00A0C95F /* TranslationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationViewController.swift; sourceTree = "<group>"; };
+		F7841713206225BC0057065B /* Dummy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dummy.m; sourceTree = "<group>"; };
+		F7841715206225C60057065B /* Dummy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dummy.h; sourceTree = "<group>"; };
+		F7841716206226620057065B /* CoreML_test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreML_test-Bridging-Header.h"; sourceTree = "<group>"; };
 		F7ABA0202045355300106585 /* KerningLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KerningLabel.swift; sourceTree = "<group>"; };
 		F7ABA039204540F000106585 /* MapRouterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapRouterImpl.swift; sourceTree = "<group>"; };
 		F7ABA03A204540F100106585 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -146,6 +151,7 @@
 		F7ABA0452045410500106585 /* ArtworkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtworkView.swift; sourceTree = "<group>"; };
 		F7ABA0472045411600106585 /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
 		F7ACCC2C2045019200C388AE /* PublicArt.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PublicArt.json; sourceTree = "<group>"; };
+		F7C1B0B820621A17005D8CBA /* TesseractOCR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TesseractOCR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7C2F2EE203A82A800F3643E /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
 		F7C2F2FF203A85BA00F3643E /* TextDetector.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TextDetector.storyboard; sourceTree = "<group>"; };
 		F7C2F300203A85BA00F3643E /* TextDetectorContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDetectorContract.swift; sourceTree = "<group>"; };
@@ -176,6 +182,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7C1B0B720621A17005D8CBA /* TesseractOCR.framework in Frameworks */,
 				494E2B113DEFEC951EE482D1 /* Pods_CoreML_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +263,7 @@
 		EA41F11D7B47115BF01EBF6C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F7C1B0B820621A17005D8CBA /* TesseractOCR.framework */,
 				93302F7B3797C42FC01A271F /* Pods_CoreML_test.framework */,
 				1066CB644D82DD96559EAA9E /* Pods_CoreML_testTests.framework */,
 				D5E3C19AA87A11DECFD944F1 /* Pods_CoreML_testUITests.framework */,
@@ -311,6 +319,7 @@
 		F73A0C692032D9F9004F7473 /* CoreML_test */ = {
 			isa = PBXGroup;
 			children = (
+				F7841709206223310057065B /* Tesseract */,
 				36E6C4F5205D911200C69599 /* Services */,
 				36E6C4F1205D8E9A00C69599 /* Data */,
 				F7FCB51A204CE79E00AE29FE /* Extension */,
@@ -382,6 +391,16 @@
 				F7814E2F205FB04C00A0C95F /* TranslationViewController.swift */,
 			);
 			path = Translation;
+			sourceTree = "<group>";
+		};
+		F7841709206223310057065B /* Tesseract */ = {
+			isa = PBXGroup;
+			children = (
+				F7841713206225BC0057065B /* Dummy.m */,
+				F7841715206225C60057065B /* Dummy.h */,
+				F7841716206226620057065B /* CoreML_test-Bridging-Header.h */,
+			);
+			path = Tesseract;
 			sourceTree = "<group>";
 		};
 		F7ABA01E2045353400106585 /* Common */ = {
@@ -577,6 +596,7 @@
 				TargetAttributes = {
 					F73A0C662032D9F9004F7473 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					F73A0C7A2032D9FA004F7473 = {
@@ -708,6 +728,7 @@
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftHash/SwiftHash.framework",
+				"${BUILT_PRODUCTS_DIR}/TesseractOCRiOS/TesseractOCR.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -720,6 +741,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftHash.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TesseractOCR.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -865,6 +887,7 @@
 				F7814E32205FB04C00A0C95F /* TranslationDIPart.swift in Sources */,
 				F7C2F322203A860A00F3643E /* OCRViewController.swift in Sources */,
 				F7690A462060D59000F4314B /* TextDetectionDIPart.swift in Sources */,
+				F7841714206225BC0057065B /* Dummy.m in Sources */,
 				369BE43420540E3400513157 /* ImageUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1024,12 +1047,43 @@
 			baseConfigurationReference = E1C22710EDB294461B473597 /* Pods-CoreML_test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2M4R3DEKQ6;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = CoreML_test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"stdc++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CodableAlamofire\"",
+					"-framework",
+					"\"DITranquillity\"",
+					"-framework",
+					"\"Localize_Swift\"",
+					"-framework",
+					"\"ObjectMapper\"",
+					"-framework",
+					"\"RxAlamofire\"",
+					"-framework",
+					"\"RxSwift\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"SwiftHash\"",
+					"-framework",
+					"\"TesseractOCR\"",
+					"-lstdc++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "PolinaOsina.CoreML-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CoreML_test/Tesseract/CoreML_test-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1040,12 +1094,42 @@
 			baseConfigurationReference = CC55BB65CA5297EF7766D464 /* Pods-CoreML_test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2M4R3DEKQ6;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = CoreML_test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"stdc++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CodableAlamofire\"",
+					"-framework",
+					"\"DITranquillity\"",
+					"-framework",
+					"\"Localize_Swift\"",
+					"-framework",
+					"\"ObjectMapper\"",
+					"-framework",
+					"\"RxAlamofire\"",
+					"-framework",
+					"\"RxSwift\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"SwiftHash\"",
+					"-framework",
+					"\"TesseractOCR\"",
+					"-lstdc++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "PolinaOsina.CoreML-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CoreML_test/Tesseract/CoreML_test-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

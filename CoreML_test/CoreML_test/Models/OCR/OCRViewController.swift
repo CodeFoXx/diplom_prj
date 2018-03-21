@@ -18,6 +18,8 @@ class OCRViewController: UIViewController, UIImagePickerControllerDelegate, UINa
     
 	var presenter: OCRPresenter!
     var model: VNCoreMLModel!
+    var request = [VNRequest]()
+
     
     var textMetadata = [Int: [Int: String]]()
     
@@ -41,11 +43,14 @@ class OCRViewController: UIViewController, UIImagePickerControllerDelegate, UINa
         let action2 = UIAlertAction(title: "Photos", style: .default, handler: {
             (alert: UIAlertAction!) -> Void in
             self.showImagePicker(withType: .photoLibrary)
+
+            
         })
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
         addActionsToAlertController(controller: alertController,
                                     actions: [action1, action2, cancelAction])
         self.present(alertController, animated: true, completion: nil)
+        
     }
     
     func showImagePicker(withType type: UIImagePickerControllerSourceType){
@@ -192,6 +197,101 @@ class OCRViewController: UIViewController, UIImagePickerControllerDelegate, UINa
         activityIndicator.stopAnimating()
     }
     
+    
+    
+    // text detection
+    
+    func startTextDetection(){
+        let textRequest = VNDetectTextRectanglesRequest(completionHandler: self.detectTextHandler)
+        textRequest.reportCharacterBoxes = true
+        self.request = [textRequest]
+    }
+    
+    func detectTextHandler(request: VNRequest, error: Error?){
+        
+        guard let observation = request.results else {
+            print("no result")
+            return
+        }
+        
+        let result = observation.map({$0 as? VNTextObservation})
+        
+        DispatchQueue.main.async() {
+            self.imageView.layer.sublayers?.removeSubrange(1...)
+            for region in result {
+                guard let rg = region else {
+                    continue
+                }
+                
+                self.highlightWord(box: rg)
+                
+                if let boxes = region?.characterBoxes{
+                    for characterBox in boxes{
+                        self.highlightLetters(box: characterBox)
+                    }
+                }
+                
+            }
+        }
+    }
+    
+    func highlightWord(box: VNTextObservation){
+        guard let boxes = box.characterBoxes else {
+            return
+        }
+        
+        var maxX: CGFloat = 9999.0
+        var minX: CGFloat = 0.0
+        var maxY: CGFloat = 9999.0
+        var minY: CGFloat = 0.0
+        
+        
+        for char in boxes {
+            if char.bottomLeft.x < maxX{
+                maxX = char.bottomLeft.x
+            }
+            if char.bottomRight.x > minX {
+                minX = char.bottomRight.x
+            }
+            if char.bottomRight.y < maxY{
+                maxY = char.bottomRight.y
+            }
+            if char.topRight.y > minY {
+                minY = char.topRight.y
+            }
+        }
+        
+        let xCord = maxX * imageView.frame.size.width
+        let yCord = (1 - minY) * imageView.frame.size.height
+        let width = (minX - maxX) * imageView.frame.size.width
+        let height =  (minY - maxY) * imageView.frame.size.width
+        
+        let outline = CALayer()
+        
+        outline.frame = CGRect(x: xCord, y: yCord, width: width, height: height)
+        outline.borderWidth = 2.0
+        outline.borderColor = UIColor.red.cgColor
+        
+        imageView.layer.addSublayer(outline)
+        
+    }
+    
+    
+    func highlightLetters(box: VNRectangleObservation) {
+        let xCord = box.topLeft.x * imageView.frame.size.width
+        let yCord = (1 - box.topLeft.y) * imageView.frame.size.height
+        let width = (box.topRight.x - box.bottomLeft.x) * imageView.frame.size.width
+        let height = (box.topLeft.y - box.bottomLeft.y) * imageView.frame.size.height
+        
+        let outline = CALayer()
+        outline.frame = CGRect(x: xCord, y: yCord, width: width, height: height)
+        outline.borderWidth = 1.0
+        outline.borderColor = UIColor.blue.cgColor
+        
+        imageView.layer.addSublayer(outline)
+    }
+    
+    
 }
 
 extension OCRViewController: OCRView {
@@ -207,7 +307,9 @@ extension OCRViewController: OCRView {
         showActivityIndicator()
         DispatchQueue.global(qos: .userInteractive).async {
             self.detectText(image: newImage)
+            self.startTextDetection()
         }
+        
     }
     
 }

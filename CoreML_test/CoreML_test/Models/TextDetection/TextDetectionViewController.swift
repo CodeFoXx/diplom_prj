@@ -9,6 +9,7 @@
 import UIKit
 import AVFoundation
 import Vision
+import TesseractOCR
 
 class TextDetectionViewController: UIViewController {
 
@@ -17,21 +18,21 @@ class TextDetectionViewController: UIViewController {
     
     var session = AVCaptureSession()
     var request = [VNRequest]()
+   //  private var tesseract = G8Te
     
     var presenter: TextDetectionPresenter!
   
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-//        startLiveVideo()
-//        startTextDetection()
+        startLiveVideo()
+        startTextDetection()
         
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        startLiveVideo()
-        startTextDetection()
+//        startLiveVideo()
+//        startTextDetection()
     }
     
     override func viewDidDisappear(_ animated: Bool) {

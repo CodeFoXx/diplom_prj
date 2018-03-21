@@ -11,6 +11,7 @@ target ‘CoreML_test’ do
   pod 'SwiftHash'
   pod 'Localize-Swift'
   pod 'SVProgressHUD'
+  pod 'TesseractOCRiOS', :git => 'https://github.com/gali8/Tesseract-OCR-iOS.git'
 
   # Pods for CoreML_test
 

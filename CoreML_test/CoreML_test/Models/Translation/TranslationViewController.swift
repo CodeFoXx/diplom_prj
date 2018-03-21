@@ -20,10 +20,14 @@ class TranslationViewController: UIViewController, UITextViewDelegate{
     @IBOutlet weak var yandexRequirmentTextView: UITextView!
     @IBOutlet weak var sourceLangButton: UIButton!
     @IBOutlet weak var translatedLangButton: UIButton!
+    @IBOutlet weak var cameraButton: UIButton!
+    @IBOutlet weak var copyButton: UIButton!
+    @IBOutlet weak var shareButton: UIButton!
     
     var sourceTextPlaceholder: UILabel!
     var translatedTextPlaceholder: UILabel!
     var languageDict: Bool!
+    var swipeGesture = UISwipeGestureRecognizer()
     
     
     var presenter: TranslationPresenter!
@@ -33,7 +37,18 @@ class TranslationViewController: UIViewController, UITextViewDelegate{
         super.viewDidLoad()
         languageDict = true
         setPlaceholder()
-        //setSwipe()
+        setButtonImage()
+        setSwipe()
+    }
+    
+    func setButtonImage(){
+        cameraButton.setImage(#imageLiteral(resourceName: "camera_white"), for: .normal)
+        cameraButton.setImage(#imageLiteral(resourceName: "camera"), for: .highlighted)
+        copyButton.setImage(#imageLiteral(resourceName: "copy_white"), for: .normal)
+        copyButton.setImage(#imageLiteral(resourceName: "copy"), for: .highlighted)
+        shareButton.setImage(#imageLiteral(resourceName: "share_white"), for: .normal)
+        shareButton.setImage(#imageLiteral(resourceName: "share"), for: .highlighted)
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -41,17 +56,29 @@ class TranslationViewController: UIViewController, UITextViewDelegate{
     }
     
     func setSwipe(){
-        let leftSwipe = UISwipeGestureRecognizer(target: self, action: Selector("handleSwipes:"))
-        leftSwipe.direction = .left
-        view.addGestureRecognizer(leftSwipe)
+        let direction: UISwipeGestureRecognizerDirection = .left
+        swipeGesture = UISwipeGestureRecognizer(target: self, action: #selector(TranslationViewController.handleSwipes(_:)))
+        view.addGestureRecognizer(swipeGesture)
+        swipeGesture.direction = direction
+        view.isUserInteractionEnabled = true
+        view.isMultipleTouchEnabled = true
+        
     }
     
-    func handleSwipes(sender: UISwipeGestureRecognizer){
-        
-        if (sender.direction == .left){
-            print("swipe")
-            
+    @objc func handleSwipes(_ sender: UISwipeGestureRecognizer){
+        UIView.animate(withDuration: 1.0) {
+            if sender.direction == .left{
+                self.view.frame = CGRect(x: 0, y: self.view.frame.origin.y, width: self.view.frame.size.width, height: self.view.frame.size.height)
+                self.sourceTextView.text = ""
+                self.translatedTextView.text = ""
+                self.sourceTextPlaceholder.isHidden = false
+                self.translatedTextPlaceholder.isHidden = false
+                
+            }
+            self.view.layoutIfNeeded()
+            self.view.setNeedsLayout()
         }
+        
     }
     
     func setPlaceholder(){
@@ -101,11 +128,16 @@ class TranslationViewController: UIViewController, UITextViewDelegate{
     }
     
     @IBAction func shareButton(_ sender: Any) {
+        var item = sourceTextView.text
+        item = item?.appending(" - \(translatedTextView.text!)")
+        let activityVC = UIActivityViewController(activityItems: [item], applicationActivities: nil)
+        activityVC.popoverPresentationController?.sourceView = self.view
+        self.present(activityVC, animated: true, completion: nil)
+        
     }
     
     @IBAction func copyButton(_ sender: Any) {
-        translatedTextPlaceholder.isHidden = true
-        translatedTextView.text = "blabla"
+        UIPasteboard.general.string = translatedTextView.text
     }
     
     

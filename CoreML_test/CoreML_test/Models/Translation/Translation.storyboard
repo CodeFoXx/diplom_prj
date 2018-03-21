@@ -68,7 +68,7 @@
                                 <rect key="frame" x="7" y="70" width="361" height="567"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="e8z-7S-1gA">
-                                        <rect key="frame" x="5" y="5" width="319" height="128"/>
+                                        <rect key="frame" x="5" y="5" width="313" height="128"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="128" id="xlH-kI-EAp"/>
@@ -77,10 +77,10 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CJ6-Sr-ogF">
-                                        <rect key="frame" x="329" y="15" width="23" height="22"/>
+                                        <rect key="frame" x="323" y="15" width="28" height="27"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="23" id="84H-zq-Oan"/>
-                                            <constraint firstAttribute="height" constant="22" id="mpH-gK-uRd"/>
+                                            <constraint firstAttribute="width" constant="28" id="84H-zq-Oan"/>
+                                            <constraint firstAttribute="height" constant="27" id="mpH-gK-uRd"/>
                                         </constraints>
                                         <state key="normal" image="camera"/>
                                         <connections>
@@ -106,10 +106,10 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FGO-2H-QnM">
-                                        <rect key="frame" x="329" y="159" width="23" height="22"/>
+                                        <rect key="frame" x="323" y="159" width="28" height="27"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="22" id="NYc-aD-TeI"/>
-                                            <constraint firstAttribute="width" constant="23" id="vTf-Od-TEm"/>
+                                            <constraint firstAttribute="height" constant="27" id="NYc-aD-TeI"/>
+                                            <constraint firstAttribute="width" constant="28" id="vTf-Od-TEm"/>
                                         </constraints>
                                         <state key="normal" image="copy"/>
                                         <connections>
@@ -117,10 +117,10 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FNF-gY-ATc">
-                                        <rect key="frame" x="329" y="191" width="23" height="22"/>
+                                        <rect key="frame" x="323" y="196" width="28" height="27"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="22" id="GbO-SP-HWa"/>
-                                            <constraint firstAttribute="width" constant="23" id="mPF-8M-X8m"/>
+                                            <constraint firstAttribute="height" constant="27" id="GbO-SP-HWa"/>
+                                            <constraint firstAttribute="width" constant="28" id="mPF-8M-X8m"/>
                                         </constraints>
                                         <state key="normal" image="share"/>
                                         <connections>
@@ -128,7 +128,7 @@
                                         </connections>
                                     </button>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ksZ-mB-hD2">
-                                        <rect key="frame" x="5" y="152" width="319" height="354"/>
+                                        <rect key="frame" x="5" y="152" width="313" height="354"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -159,7 +159,7 @@
                                     <constraint firstAttribute="bottom" secondItem="NUe-M9-KB0" secondAttribute="bottom" constant="5" id="cJs-1J-PBv"/>
                                     <constraint firstItem="NUe-M9-KB0" firstAttribute="top" secondItem="ksZ-mB-hD2" secondAttribute="bottom" constant="10" id="eNv-GR-oXk"/>
                                     <constraint firstItem="FGO-2H-QnM" firstAttribute="leading" secondItem="ksZ-mB-hD2" secondAttribute="trailing" constant="5" id="ekl-1S-okk"/>
-                                    <constraint firstAttribute="trailing" secondItem="CJ6-Sr-ogF" secondAttribute="trailing" constant="9" id="evX-eb-e1u"/>
+                                    <constraint firstAttribute="trailing" secondItem="CJ6-Sr-ogF" secondAttribute="trailing" constant="10" id="evX-eb-e1u"/>
                                     <constraint firstItem="FNF-gY-ATc" firstAttribute="leading" secondItem="ksZ-mB-hD2" secondAttribute="trailing" constant="5" id="gTY-iQ-YFY"/>
                                     <constraint firstAttribute="trailing" secondItem="NUe-M9-KB0" secondAttribute="trailing" constant="10" id="hE2-rV-bzP"/>
                                     <constraint firstAttribute="trailing" secondItem="qDE-ZY-dVB" secondAttribute="trailing" constant="10" id="pnM-Sz-SZ6"/>
@@ -195,6 +195,9 @@
                         <viewLayoutGuide key="safeArea" id="Utv-4k-nJE"/>
                     </view>
                     <connections>
+                        <outlet property="cameraButton" destination="CJ6-Sr-ogF" id="5d4-h9-kB7"/>
+                        <outlet property="copyButton" destination="FGO-2H-QnM" id="RLD-61-ZZW"/>
+                        <outlet property="shareButton" destination="FNF-gY-ATc" id="ZGB-te-NNd"/>
                         <outlet property="sourceLangButton" destination="sgb-UP-okb" id="uBF-u0-vBk"/>
                         <outlet property="sourceTextView" destination="e8z-7S-1gA" id="S6m-YV-Oug"/>
                         <outlet property="swipe" destination="ASd-ya-QX8" id="HN9-o9-n2n"/>

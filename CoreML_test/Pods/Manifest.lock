@@ -13,6 +13,7 @@ PODS:
   - RxSwift (4.1.2)
   - SVProgressHUD (2.2.5)
   - SwiftHash (2.0.1)
+  - TesseractOCRiOS (4.0.0)
 
 DEPENDENCIES:
   - CodableAlamofire
@@ -22,6 +23,16 @@ DEPENDENCIES:
   - RxAlamofire
   - SVProgressHUD
   - SwiftHash
+  - TesseractOCRiOS (from `https://github.com/gali8/Tesseract-OCR-iOS.git`)
+
+EXTERNAL SOURCES:
+  TesseractOCRiOS:
+    :git: https://github.com/gali8/Tesseract-OCR-iOS.git
+
+CHECKOUT OPTIONS:
+  TesseractOCRiOS:
+    :commit: c7ad56d6544839b2f84c7ffde8fa42efe2312405
+    :git: https://github.com/gali8/Tesseract-OCR-iOS.git
 
 SPEC CHECKSUMS:
   Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
@@ -33,7 +44,8 @@ SPEC CHECKSUMS:
   RxSwift: e49536837d9901277638493ea537394d4b55f570
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwiftHash: c805de5a434eacfa0dac7210745a50c55d7fe33d
+  TesseractOCRiOS: 729989db3984bb60ba3addb053569b172d48c409
 
-PODFILE CHECKSUM: d642d4739ece05ad3d96eb907e9cedb94de4c82b
+PODFILE CHECKSUM: d93f8ba6af7d3e444d595ac45890ca56926ccbd0
 
 COCOAPODS: 1.4.0.beta.2
